@@ -1,0 +1,45 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "command:command_book"
+    },
+
+    "tags": ["crafting_table"],
+    "pattern": [
+      "GCG",
+      "ETD",
+      "GNG"
+    ],
+    "key": {
+      "G": {
+        "item": "minecraft:gold_block",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:end_crystal",
+        "data": 0
+      },
+      "E": {
+        "item": "minecraft:emerald",
+        "data": 0
+      },
+      "T": {
+        "item": "minecraft:enchanting_table",
+        "data": 0
+      },
+      "D": {
+        "item": "minecraft:diamond",
+        "data": 0
+      },
+      "N": {
+        "item": "minecraft:netherite_ingot",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "command:command_book",
+      "count": 1
+    }
+  }
+}
