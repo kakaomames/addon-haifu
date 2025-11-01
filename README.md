@@ -10,3 +10,10 @@
 3.<a href="https://github.com/kakaomames/addon-haifu/raw/refs/heads/main/data/addon/MTC_Pole_Kit_R.mcaddon">MTC_Pole_Kit_R</a>
 ### MTCレールパック
 4.<a href="https://github.com/kakaomames/addon-haifu/raw/refs/heads/main/data/addon/MTC%E3%83%AC%E3%83%BC%E3%83%AB%E3%83%8F%E3%82%9A%E3%83%83%E3%82%AF.mcaddon">MTCレールパック</a>
+## 自作アドオン↓
+### pvpアドオン
+1.
+### 音楽追加アドオン
+2.
+### 小田急の接近・発車メロディ追加アドオン
+3.
