@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Made by @mca_be_official",
+        "name": "§lMTC2 架線柱 剛体架線",
+        "uuid": "3f4c8dab-c005-4bf6-a8f9-eebe13b80623",
+        "version": [1, 0, 0],
+        "min_engine_version": [1, 21, 0]
+    },
+    "modules": [
+        {
+            "description": "",
+            "type": "resources",
+            "uuid": "32a5c256-0722-4e34-ab3d-bceb13b80623",
+            "version": [1, 0, 0]
+        }
+    ]
+}
