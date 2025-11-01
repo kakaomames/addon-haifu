@@ -1,0 +1,1 @@
+execute as @e[family=mtc_rail2,c=1] run scriptevent mtc:npt 1

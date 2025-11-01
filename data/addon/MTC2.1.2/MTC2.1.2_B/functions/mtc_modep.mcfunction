@@ -1,0 +1,8 @@
+function mtc/testBoard
+
+# 実行
+execute as @e[family=mtc_body,tag=mtc_parent,c=1] at @s run scoreboard players add @s mtc_maku 1
+execute as @e[family=mtc_body,tag=mtc_parent,c=1] at @s run scoreboard players operation @s mtc_maku %= @s mtc_makuM
+
+execute as @e[family=mtc_body,tag=mtc_parent,c=1] run tag @s add mtc_mode_v2
+

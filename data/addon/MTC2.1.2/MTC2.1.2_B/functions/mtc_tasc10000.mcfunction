@@ -1,0 +1,1 @@
+scriptevent mtc:tasc 10000
