@@ -5,7 +5,7 @@
 1-2.<a href="https://github.com/kakaomames/addon-haifu/raw/refs/heads/main/data/addon/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%88%E3%82%99%E3%82%A2%E3%83%88%E3%82%99%E3%82%AA%E3%83%B3.mcpack">コマンドアドオン</a>
 ### MTC
 2-1.<a href="https://github.com/kakaomames/addon-haifu/raw/refs/heads/main/data/addon/MTC1.1.3.mcaddon">MTC1.1.3</a><br>
-2-2.<a href="https://github.com/kakaomames/addon-haifu/raw/refs/heads/main/data/addon/MTC2.1.1.mcaddon">MTC2.1.1</a>
+2-2.<a href="https://github.com/kakaomames/addon-haifu/raw/refs/heads/main/data/addon/MTC2.1.2.mcaddon">MTC2.1.2</a>
 ### MTC_Pole_Kit_R
 3.<a href="https://github.com/kakaomames/addon-haifu/raw/refs/heads/main/data/addon/MTC_Pole_Kit_R.mcaddon">MTC_Pole_Kit_R</a>
 ### MTCレールパック
