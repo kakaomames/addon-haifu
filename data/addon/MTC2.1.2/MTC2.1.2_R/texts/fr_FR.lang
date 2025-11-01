@@ -1,0 +1,147 @@
+mtc:operation=MTC Élément d'opération	＃
+mtc:setting=MTC Élément de tâche	＃
+
+mtc:mtc.ui.controll=Contrôle	＃
+mtc:mtc.ui.settings=Paramètres	＃
+mtc:mtc.ui.door=Ouvrir la porte	＃
+mtc:mtc.ui.doorO=Ouvrir §2la porte	＃
+mtc:mtc.ui.doorC=Fermer §cla porte	＃
+mtc:mtc.ui.maku=Panneau d'affichage	＃
+mtc:mtc.ui.ani=Animation personnalisée	＃
+mtc:mtc.ui.sound=Son en boucle	＃
+mtc:mtc.ui.horn=Son	＃
+mtc:mtc.ui.kill_train=§cSupprimer le train	＃
+mtc:mtc.ui.kill_all=§l§6※※§r§cSupprimer tous les trains§l§6※※	＃
+mtc:mtc.ui.kill_formation=§cSupprimer la formation	＃
+mtc:mtc.ui.selseat=§2Activer§r la sélection des sièges du train	＃
+mtc:mtc.ui.d_selseat=§cDésactiver§r la sélection des sièges du train	＃
+mtc:mtc.ui.rot=Rotation de 90 degrés	＃
+mtc:mtc.ui.connect=§2Accoupler	＃
+mtc:mtc.ui.disconnect=§cDécoupler	＃
+mtc:mtc.ui.now_on=§cArrêter	＃
+mtc:mtc.ui.now_off=§2Jouer	＃
+mtc:mtc.ui.back=Retour	＃
+mtc:mtc.ui.resel= Sélectionner à nouveau la voiture	#
+mtc:mtc.ui.tsel_back=Sélectionner à nouveau le modèle	#
+mtc:mtc.ui.spawn_btn=Voitures §l§2Invoquer !	＃
+mtc:mtc.ui.doorL=Porte gauche §2Ouvrir	＃
+mtc:mtc.ui.doorR=Porte droite §2Ouvrir	＃
+mtc:mtc.ui.doorB=Les deux portes §2Ouvrir	＃
+mtc:mtc.ui.doorFr=Porte avant §2Ouvrir	＃
+mtc:mtc.ui.doorBa=Porte arrière §2Ouvrir	＃
+mtc:mtc.ui.doorBB=Toutes les portes §2Ouvrir	＃
+mtc:mtc.ui.setting=Autres paramètres	＃
+mtc:mtc.ui.pg_on=§2Activer§r l'interverrouillage des portes palières	＃
+mtc:mtc.ui.pg_off=§cDésactiver§r l'interverrouillage des portes palières	＃
+mtc:mtc.ui.tilt_on=Inclinaison du siège §2Activée	#
+mtc:mtc.ui.tilt_off=Inclinaison du siège §cDésactivée	#
+mtc:mtc.msg.tilt_on=L'inclinaison du siège a été activée. Cette fonctionnalité nécessite un module complémentaire de véhicule qui prend en charge l'inclinaison du siège. Veuillez noter que cette fonctionnalité consomme beaucoup de ressources.	#
+mtc:mtc.ui.tilt_car_on=§2Activer§r l'inclinaison du train	＃
+mtc:mtc.ui.tilt_car_off=§cDésactiver§r l'inclinaison du train	＃
+mtc:mtc.ui.resist_on=§2Activer§r la résistance au roulement	＃
+mtc:mtc.ui.resist_off=§cDésactiver§r la résistance au roulement	＃
+mtc:mtc.ui.stop=§cArrêt d'urgence	＃
+mtc:mtc.ui.stop_all=§l§eToutes les formations§r§c Arrêt d'urgence	＃
+mtc:mtc.ui.rail=Type de rail	＃
+mtc:mtc.ui.cancel=§6Annuler	＃
+mtc:mtc.ui.remove_m=§cSupprimer ce marqueur	＃
+mtc:mtc.ui.remove_ma=§cSupprimer tous les marqueurs	＃
+mtc:mtc.ui.setrail1=§ePose du rail en cours	＃
+mtc:mtc.ui.setrail2=§ePose de l'aiguillage en cours	＃
+mtc:mtc.ui.setrailok=§2Pose terminée	＃
+mtc:mtc.ui.rail_title=Paramètres de dévers	＃
+mtc:mtc.ui.cant_max=Angle de dévers maximal	＃
+mtc:mtc.ui.cant_spd=Vitesse de passage en courbe [km/h] (Chiffres uniquement, aucun réglage requis lorsque le dévers n'est pas utilisé)	＃
+mtc:mtc.ui.cant_spd_alt=Laisser vide si non utilisé	＃
+mtc:mtc.ui.joint=Espacement des joints [m] (Chiffres uniquement)	＃
+mtc:mtc.ui.tunnel=Excavation de blocs	＃
+mtc:mtc.ui.tunnel_title=Quantité d'excavation de blocs	＃
+mtc:mtc.ui.tunnel_l=Gauche (bloc)	＃
+mtc:mtc.ui.tunnel_r=Droite (bloc)	＃
+mtc:mtc.ui.tunnel_u=Haut (bloc)	＃
+mtc:mtc.ui.tunnel_d=Bas (bloc)	＃
+mtc:mtc.ui.enable_rainani=§2Activer§r l'animation des aiguillages	＃
+mtc:mtc.ui.disable_rainani=§cDésactiver§r l'animation des aiguillages	＃
+mtc:mtc.ui.type=types	＃
+mtc:mtc.ui.door_mode=Mode porte	＃
+mtc:mtc.ui.enable_autolook=§2Activer la rotation automatique	＃
+mtc:mtc.ui.disable_autolook=§cDésactiver la rotation automatique	＃
+
+mtc:mtc.ui.pole=Installation des poteaux de caténaire	＃
+mtc:mtc.ui.pole_edge=Installer des poteaux de caténaire à la fin ?	＃
+mtc:polename.def0=Voie unique	＃
+mtc:polename.def1=Voie double	＃
+mtc:polename.def2=Fils aériens uniquement	＃
+
+mtc:mtc.ui.spawn_settings=Voitures sélectionnées	＃
+mtc:mtc.ui.spawn_settings1=: Sélectionnez un type	＃
+mtc:mtc.ui.spawn_settings2=: Sélectionnez un véhicule	＃
+mtc:mtc.ui.spawn_setinv=Paramètres de direction d'invocation	＃
+mtc:mtc.ui.spawn_normal=Invoquer	＃
+mtc:mtc.ui.spawn_inv=Invoquer §l§cInversé§r	＃
+
+
+mtc:mtc.ui.disable_selseat=La sélection des sièges du train a été désactivée.	＃
+
+mtc:mtc.ui.from_spawn=Distance parcourue depuis le point d'apparition	＃
+mtc:mtc.ui.from_last=Distance parcourue depuis le dernier point mesuré	＃
+
+mtc:mtc.warn.rail_mk_rem=§cImpossible de supprimer le marqueur à la racine de l'aiguillage	＃
+mtc:mtc.warn.no_train=§cIl n'y a aucun train dans le monde	＃
+mtc:mtc.warn.no_controll=§cImpossible de trouver le train à faire fonctionner	＃
+mtc:mtc.warn.no_autopirot=§cCe train ne peut pas utiliser le pilote automatique	＃
+mtc:mtc.warn.no_marker0=§cLes marqueurs d'aiguillage ne peuvent pas être utilisés sans marqueurs de voie	＃
+mtc:mtc.warn.no_marker1=§cAu moins deux marqueurs rouges sont requis.	＃
+mtc:mtc.warn.no_marker2=§cImpossible de créer un point avec un angle de 90 degrés ou plus.	＃
+mtc:mtc.warn.tilt_no_selseat=§cLa sélection des sièges du train est forcée lorsque l'inclinaison du train est activée	＃
+mtc:mtc.warn.rr_structure=§l§c[Avertissement]§r§cReal Rail a été dupliqué avec un bloc de structure. Si l'option de miroir est utilisée, il se peut qu'il ne soit pas dupliqué correctement.	＃
+
+mtc:railname.def0=Invisible	＃
+mtc:railname.def1=Rail normal	＃
+mtc:railname.def2=Rail normal + Ballast marron	＃
+mtc:railname.def3=Rail normal + Ballast gris	＃
+mtc:railname.def4=Traverse de 1067 mm	＃
+mtc:railname.def5=Traverse de 1067 mm + Ballast marron	＃
+mtc:railname.def6=Traverse de 1067 mm + Ballast gris	＃
+mtc:railname.def7=Traverse PC de 1067 mm	＃
+mtc:railname.def8=Traverse PC de 1067 mm + Ballast marron	＃
+mtc:railname.def9=Traverse PC de 1067 mm + Ballast gris	＃
+mtc:railname.def10=Passage à niveau de 1067 mm	＃
+mtc:railname.def11=Invisible (Pour bus)	＃
+
+item.mtc:i_notp=MTC P	＃
+item.mtc:i_notn=MTC N	＃
+item.mtc:i_notb=MTC B	＃
+item.mtc:i_noteb=MTC EB	＃
+item.mtc:i_reverse=MTC Changer le sens de marche	＃
+item.mtc:i_set=MTC Fonctionnement du train	＃
+item.mtc:i_set2=MTC Paramètres	＃
+item.mtc:i_spawn=MTC Faire apparaître un train	＃
+item.mtc:i_marker0=MTC Marqueur de voie/Poser un rail/Supprimer un rail	＃
+item.mtc:i_marker1=MTC Marqueur d'aiguillage/Poser un rail/Supprimer tous les rails	＃
+item.mtc:i_marker2=MTC Marqueur de poteau de caténaire/Supprimer le poteau de caténaire	＃
+
+item.spawn_egg.entity.mtc:kill_train.name=[Ancienne version]MTC Supprimer le train	＃
+item.spawn_egg.entity.mtc:rot.name=[Ancienne version]MTC Rotation de 90 degrés	＃
+item.spawn_egg.entity.mtc:notp.name=[Ancienne version]MTC P	＃
+item.spawn_egg.entity.mtc:notn.name=[Ancienne version]MTC N	＃
+item.spawn_egg.entity.mtc:notb.name=[Ancienne version]MTC B	＃
+item.spawn_egg.entity.mtc:noteb.name=[Ancienne version]MTC EB	＃
+item.spawn_egg.entity.mtc:reverse.name=[Ancienne version]MTC Changer le sens de marche	＃
+
+
+item.spawn_egg.entity.mtc:joumu.name=[Ancienne version]MTC Embarquer	＃
+item.spawn_egg.entity.mtc:connect.name=[Ancienne version]MTC Accoupler	＃
+item.spawn_egg.entity.mtc:disconnect.name=[Ancienne version]MTC Découpler	＃
+
+item.spawn_egg.entity.mtc:doorL.name=[Ancienne version]MTC Porte gauche	＃
+item.spawn_egg.entity.mtc:doorR.name=[Ancienne version]MTC Porte droite	＃
+item.spawn_egg.entity.mtc:doorB.name=[Ancienne version]MTC Les deux portes	＃
+item.spawn_egg.entity.mtc:modep.name=[Ancienne version]MTC Panneau d'affichage avant	＃
+item.spawn_egg.entity.mtc:modem.name=[Ancienne version]MTC Panneau d'affichage arrière	＃
+item.spawn_egg.entity.mtc:selseat.name=[Ancienne version]MTC Activer la sélection des sièges	＃
+item.spawn_egg.entity.mtc:ani1.name=[Ancienne version]MTC Animation 1 Lecture/Pause	＃
+item.spawn_egg.entity.mtc:ani2.name=[Ancienne version]MTC Animation 2 Lecture/Pause	＃
+item.spawn_egg.entity.mtc:sound1.name=[Ancienne version]MTC Son 1 Lecture/Pause	＃
+
+action.hint.exit.mtc:seat=Sauter pour sortir	＃

@@ -1,0 +1,147 @@
+mtc:operation=MTC 操作項目	＃
+mtc:setting=MTC 作業項目	＃
+
+mtc:mtc.ui.controll=操作	＃
+mtc:mtc.ui.settings=設定	＃
+mtc:mtc.ui.door=開門	＃
+mtc:mtc.ui.doorO=開§2門	＃
+mtc:mtc.ui.doorC=關§c門	＃
+mtc:mtc.ui.maku=方向幕	＃
+mtc:mtc.ui.ani=自訂動畫	＃
+mtc:mtc.ui.sound=循環音效	＃
+mtc:mtc.ui.horn=音效	＃
+mtc:mtc.ui.kill_train=§c移除車輛	＃
+mtc:mtc.ui.kill_all=§l§6※※§r§c移除所有車輛§l§6※※	＃
+mtc:mtc.ui.kill_formation=§c移除編組	＃
+mtc:mtc.ui.selseat=§2啟用§r車廂座位選擇	＃
+mtc:mtc.ui.d_selseat=§c停用§r車廂座位選擇	＃
+mtc:mtc.ui.rot=旋轉90度	＃
+mtc:mtc.ui.connect=§2連接	＃
+mtc:mtc.ui.disconnect=§c分離	＃
+mtc:mtc.ui.now_on=§c停止	＃
+mtc:mtc.ui.now_off=§2播放	＃
+mtc:mtc.ui.back=返回	＃
+mtc:mtc.ui.resel=重新選擇車輛	#
+mtc:mtc.ui.tsel_back=重新選擇型號	#
+mtc:mtc.ui.spawn_btn=輛車 §l§2召喚！	＃
+mtc:mtc.ui.doorL=左門 §2開	＃
+mtc:mtc.ui.doorR=右門 §2開	＃
+mtc:mtc.ui.doorB=兩側門 §2開	＃
+mtc:mtc.ui.doorFr=前門 §2開	＃
+mtc:mtc.ui.doorBa=後門 §2開	＃
+mtc:mtc.ui.doorBB=所有門 §2開	＃
+mtc:mtc.ui.setting=其他設定	＃
+mtc:mtc.ui.pg_on=§2啟用§r月台閘門聯動	＃
+mtc:mtc.ui.pg_off=§c停用§r月台閘門聯動	＃
+mtc:mtc.ui.tilt_on=座椅傾斜 §2啟用	＃
+mtc:mtc.ui.tilt_off=座椅傾斜 §c禁用	＃
+mtc:mtc.msg.tilt_on=座椅傾斜已啟用。此功能需要支援座椅傾斜的車輛附加元件。另請注意，此功能的負載非常大。	＃
+mtc:mtc.ui.tilt_car_on=§2啟用§r車體傾斜	＃
+mtc:mtc.ui.tilt_car_off=§c停用§r車體傾斜	＃
+mtc:mtc.ui.resist_on=§2啟用§r行駛阻力	＃
+mtc:mtc.ui.resist_off=§c停用§r行駛阻力	＃
+mtc:mtc.ui.stop=§c緊急停止	＃
+mtc:mtc.ui.stop_all=§l§e所有編組§r§c緊急停止	＃
+mtc:mtc.ui.rail=軌道類型	＃
+mtc:mtc.ui.cancel=§6取消	＃
+mtc:mtc.ui.remove_m=§c移除此標記	＃
+mtc:mtc.ui.remove_ma=§c移除所有標記	＃
+mtc:mtc.ui.setrail1=§e軌道設置中	＃
+mtc:mtc.ui.setrail2=§e道岔設置中	＃
+mtc:mtc.ui.setrailok=§2設置完成	＃
+mtc:mtc.ui.rail_title=外傾角設定	＃
+mtc:mtc.ui.cant_max=最大外傾角	＃
+mtc:mtc.ui.cant_spd=彎道通過速度 [公里/小時]（僅限數字，不使用外傾角時無需設定）	＃
+mtc:mtc.ui.cant_spd_alt=不使用時請留空	＃
+mtc:mtc.ui.joint=接縫間隔 [公尺]（僅限數字）	＃
+mtc:mtc.ui.tunnel=方塊挖掘	＃
+mtc:mtc.ui.tunnel_title=方塊挖掘量	＃
+mtc:mtc.ui.tunnel_l=左（方塊）	＃
+mtc:mtc.ui.tunnel_r=右（方塊）	＃
+mtc:mtc.ui.tunnel_u=上（方塊）	＃
+mtc:mtc.ui.tunnel_d=下（方塊）	＃
+mtc:mtc.ui.enable_rainani=§2啟用§r轉轍器動畫	＃
+mtc:mtc.ui.disable_rainani=§c停用§r轉轍器動畫	＃
+mtc:mtc.ui.type=類型	＃
+mtc:mtc.ui.door_mode=門模式	＃
+mtc:mtc.ui.enable_autolook=§2啟用自動視角旋轉	＃
+mtc:mtc.ui.disable_autolook=§c停用自動視角旋轉	＃
+
+mtc:mtc.ui.pole=電線桿安裝	＃
+mtc:mtc.ui.pole_edge=在終點安裝電線桿嗎？	＃
+mtc:polename.def0=單線	＃
+mtc:polename.def1=複線	＃
+mtc:polename.def2=僅架空線	＃
+
+mtc:mtc.ui.spawn_settings=車廂 選擇	＃
+mtc:mtc.ui.spawn_settings1=: 請選擇型號	＃
+mtc:mtc.ui.spawn_settings2=: 請選擇車輛	＃
+mtc:mtc.ui.spawn_setinv=召喚方向設定	＃
+mtc:mtc.ui.spawn_normal=召喚	＃
+mtc:mtc.ui.spawn_inv=§l§c反轉前後方向§r召喚	＃
+
+
+mtc:mtc.ui.disable_selseat=已停用列車座位選擇。	＃
+
+mtc:mtc.ui.from_spawn=從出生點的行駛距離	＃
+mtc:mtc.ui.from_last=從上次測量點的行駛距離	＃
+
+mtc:mtc.warn.rail_mk_rem=§c無法移除道岔根部的標記	＃
+mtc:mtc.warn.no_train=§c世界中沒有車輛	＃
+mtc:mtc.warn.no_controll=§c找不到要操作的車輛	＃
+mtc:mtc.warn.no_autopirot=§c此列車無法使用自動駕駛	＃
+mtc:mtc.warn.no_marker0=§c沒有軌道標記的情況下無法使用道岔標記	＃
+mtc:mtc.warn.no_marker1=§c至少需要2個紅色標記。	＃
+mtc:mtc.warn.no_marker2=§c無法創建角度等於或大於90度的點。	＃
+mtc:mtc.warn.tilt_no_selseat=§c啟用車體傾斜時，將強制選擇列車座位	＃
+mtc:mtc.warn.rr_structure=§l§c[警告]§r§cReal Rail已透過結構方塊複製。如果使用鏡像選項，可能無法正確複製	＃
+
+mtc:railname.def0=透明	＃
+mtc:railname.def1=普通軌道	＃
+mtc:railname.def2=普通軌道+棕色道碴	＃
+mtc:railname.def3=普通軌道+灰色道碴	＃
+mtc:railname.def4=1067毫米枕木	＃
+mtc:railname.def5=1067毫米枕木+棕色道碴	＃
+mtc:railname.def6=1067毫米枕木+灰色道碴	＃
+mtc:railname.def7=1067毫米PC枕木	＃
+mtc:railname.def8=1067毫米PC枕木+棕色道碴	＃
+mtc:railname.def9=1067毫米PC枕木+灰色道碴	＃
+mtc:railname.def10=1067毫米平交道	＃
+mtc:railname.def11=透明（巴士用）	＃
+
+item.mtc:i_notp=MTC P	＃
+item.mtc:i_notn=MTC N	＃
+item.mtc:i_notb=MTC B	＃
+item.mtc:i_noteb=MTC EB	＃
+item.mtc:i_reverse=MTC 切換行駛方向	＃
+item.mtc:i_set=MTC 車輛操作	＃
+item.mtc:i_set2=MTC 設定	＃
+item.mtc:i_spawn=MTC 召喚車輛	＃
+item.mtc:i_marker0=MTC 軌道標記/放置軌道/移除軌道	＃
+item.mtc:i_marker1=MTC 道岔標記/放置軌道/移除所有軌道	＃
+item.mtc:i_marker2=MTC 電線桿標記/移除電線桿	＃
+
+item.spawn_egg.entity.mtc:kill_train.name=[舊版]MTC 移除車輛	＃
+item.spawn_egg.entity.mtc:rot.name=[舊版]MTC 旋轉90度	＃
+item.spawn_egg.entity.mtc:notp.name=[舊版]MTC P	＃
+item.spawn_egg.entity.mtc:notn.name=[舊版]MTC N	＃
+item.spawn_egg.entity.mtc:notb.name=[舊版]MTC B	＃
+item.spawn_egg.entity.mtc:noteb.name=[舊版]MTC EB	＃
+item.spawn_egg.entity.mtc:reverse.name=[舊版]MTC 切換行駛方向	＃
+
+
+item.spawn_egg.entity.mtc:joumu.name=[舊版]MTC 乘務	＃
+item.spawn_egg.entity.mtc:connect.name=[舊版]MTC 連接	＃
+item.spawn_egg.entity.mtc:disconnect.name=[舊版]MTC 分離	＃
+
+item.spawn_egg.entity.mtc:doorL.name=[舊版]MTC 左門	＃
+item.spawn_egg.entity.mtc:doorR.name=[舊版]MTC 右門	＃
+item.spawn_egg.entity.mtc:doorB.name=[舊版]MTC 兩側門	＃
+item.spawn_egg.entity.mtc:modep.name=[舊版]MTC 方向幕正轉	＃
+item.spawn_egg.entity.mtc:modem.name=[舊版]MTC 方向幕反轉	＃
+item.spawn_egg.entity.mtc:selseat.name=[舊版]MTC 啟用座位選擇	＃
+item.spawn_egg.entity.mtc:ani1.name=[舊版]MTC 動畫1 播放/停止	＃
+item.spawn_egg.entity.mtc:ani2.name=[舊版]MTC 動畫2 播放/停止	＃
+item.spawn_egg.entity.mtc:sound1.name=[舊版]MTC 音效1 播放/停止	＃
+
+action.hint.exit.mtc:seat=跳躍下車	＃

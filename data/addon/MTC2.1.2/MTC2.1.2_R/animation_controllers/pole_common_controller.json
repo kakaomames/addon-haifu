@@ -1,0 +1,245 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.pole_common.pole_common_1": {
+            "initial_state": "default",
+            "states": {
+                "default": {
+                    "animations": [
+                        {
+                            "b_h": "query.property('mtc:pole_base_h')"
+                        },
+                        {
+                            "b_r1": "query.property('mtc:pole_base_deg')>0 && math.mod(math.floor(query.property('mtc:pole_base_deg')/1),2) == 1"
+                        },
+                        {
+                            "b_r2": "query.property('mtc:pole_base_deg')>0 && math.mod(math.floor(query.property('mtc:pole_base_deg')/2),2) == 1"
+                        },
+                        {
+                            "b_r3": "query.property('mtc:pole_base_deg')>0 && math.mod(math.floor(query.property('mtc:pole_base_deg')/4),2) == 1"
+                        },
+                        {
+                            "b_r4": "query.property('mtc:pole_base_deg')>0 && math.mod(math.floor(query.property('mtc:pole_base_deg')/8),2) == 1"
+                        },
+                        {
+                            "b_r5": "query.property('mtc:pole_base_deg')>0 && math.mod(math.floor(query.property('mtc:pole_base_deg')/16),2) == 1"
+                        },
+                        {
+                            "b_r6": "query.property('mtc:pole_base_deg')>0 && math.mod(math.floor(query.property('mtc:pole_base_deg')/32),2) == 1"
+                        },
+                        {
+                            "b_l1": "query.property('mtc:pole_base_deg')<0 && math.mod(math.floor(-query.property('mtc:pole_base_deg')/1),2) == 1"
+                        },
+                        {
+                            "b_l2": "query.property('mtc:pole_base_deg')<0 && math.mod(math.floor(-query.property('mtc:pole_base_deg')/2),2) == 1"
+                        },
+                        {
+                            "b_l3": "query.property('mtc:pole_base_deg')<0 && math.mod(math.floor(-query.property('mtc:pole_base_deg')/4),2) == 1"
+                        },
+                        {
+                            "b_l4": "query.property('mtc:pole_base_deg')<0 && math.mod(math.floor(-query.property('mtc:pole_base_deg')/8),2) == 1"
+                        },
+                        {
+                            "b_l5": "query.property('mtc:pole_base_deg')<0 && math.mod(math.floor(-query.property('mtc:pole_base_deg')/16),2) == 1"
+                        },
+                        {
+                            "b_l6": "query.property('mtc:pole_base_deg')<0 && math.mod(math.floor(-query.property('mtc:pole_base_deg')/32),2) == 1"
+                        },
+                        {
+                            "s1_h": "query.property('mtc:n_s')==0"
+                        },
+                        {
+                            "s2_h": "query.property('mtc:n_s')==1"
+                        },
+                        {
+                            "s3_h": "query.property('mtc:n_s')==2"
+                        },
+                        {
+                            "s4_h": "query.property('mtc:n_s')==3"
+                        },
+                        {
+                            "s5_h": "query.property('mtc:n_s')==4"
+                        },
+                        {
+                            "s6_h": "query.property('mtc:n_s')==5"
+                        },
+                        {
+                            "s7_h": "query.property('mtc:n_s')==6"
+                        },
+                        {
+                            "s8_h": "query.property('mtc:n_s')==7"
+                        },
+                        {
+                            "s9_h": "query.property('mtc:n_s')==8"
+                        },
+                        {
+                            "s10_h": "query.property('mtc:n_s')==9"
+                        },
+                        {
+                            "s11_h": "query.property('mtc:n_s')==10"
+                        },
+                        {
+                            "s12_h": "query.property('mtc:n_s')==11"
+                        },
+                        {
+                            "s13_h": "query.property('mtc:n_s')==12"
+                        },
+                        {
+                            "s14_h": "query.property('mtc:n_s')==13"
+                        },
+                        {
+                            "s15_h": "query.property('mtc:n_s')==14"
+                        },
+                        {
+                            "s16_h": "query.property('mtc:n_s')==15"
+                        },
+                        {
+                            "s17_h": "query.property('mtc:n_s')==16"
+                        },
+                        {
+                            "s18_h": "query.property('mtc:n_s')==17"
+                        },
+                        {
+                            "s19_h": "query.property('mtc:n_s')==18"
+                        },
+                        {
+                            "s20_h": "query.property('mtc:n_s')==19"
+                        },
+                        {
+                            "s21_h": "query.property('mtc:n_s')==20"
+                        },
+                        {
+                            "s22_h": "query.property('mtc:n_s')==21"
+                        },
+                        {
+                            "s23_h": "query.property('mtc:n_s')==22"
+                        },
+                        {
+                            "s24_h": "query.property('mtc:n_s')==23"
+                        },
+                        {
+                            "s25_h": "query.property('mtc:n_s')==24"
+                        },
+                        {
+                            "s26_h": "query.property('mtc:n_s')==25"
+                        },
+                        {
+                            "s27_h": "query.property('mtc:n_s')==26"
+                        },
+                        {
+                            "s28_h": "query.property('mtc:n_s')==27"
+                        },
+                        {
+                            "s29_h": "query.property('mtc:n_s')==28"
+                        },
+                        {
+                            "s30_h": "query.property('mtc:n_s')==29"
+                        },
+                        {
+                            "s31_h": "query.property('mtc:n_s')==30"
+                        },
+                        {
+                            "s32_h": "query.property('mtc:n_s')==31"
+                        },
+                        {
+                            "s1_r1": "query.property('mtc:s_lr')>0 && math.mod(math.floor(query.property('mtc:s_lr')/1),2) == 1"
+                        },
+                        {
+                            "s1_r2": "query.property('mtc:s_lr')>0 && math.mod(math.floor(query.property('mtc:s_lr')/2),2) == 1"
+                        },
+                        {
+                            "s1_r4": "query.property('mtc:s_lr')>0 && math.mod(math.floor(query.property('mtc:s_lr')/4),2) == 1"
+                        },
+                        {
+                            "s1_r8": "query.property('mtc:s_lr')>0 && math.mod(math.floor(query.property('mtc:s_lr')/8),2) == 1"
+                        },
+                        {
+                            "s1_r16": "query.property('mtc:s_lr')>0 && math.mod(math.floor(query.property('mtc:s_lr')/16),2) == 1"
+                        },
+                        {
+                            "s1_r32": "query.property('mtc:s_lr')>0 && math.mod(math.floor(query.property('mtc:s_lr')/32),2) == 1"
+                        },
+                        {
+                            "s1_r64": "query.property('mtc:s_lr')>0 && math.mod(math.floor(query.property('mtc:s_lr')/64),2) == 1"
+                        },
+                        {
+                            "s1_r128": "query.property('mtc:s_lr')>0 && math.mod(math.floor(query.property('mtc:s_lr')/128),2) == 1"
+                        },
+                        {
+                            "s1_l1": "query.property('mtc:s_lr')<0 && math.mod(math.floor(-query.property('mtc:s_lr')/1),2) == 1"
+                        },
+                        {
+                            "s1_l2": "query.property('mtc:s_lr')<0 && math.mod(math.floor(-query.property('mtc:s_lr')/2),2) == 1"
+                        },
+                        {
+                            "s1_l4": "query.property('mtc:s_lr')<0 && math.mod(math.floor(-query.property('mtc:s_lr')/4),2) == 1"
+                        },
+                        {
+                            "s1_l8": "query.property('mtc:s_lr')<0 && math.mod(math.floor(-query.property('mtc:s_lr')/8),2) == 1"
+                        },
+                        {
+                            "s1_l16": "query.property('mtc:s_lr')<0 && math.mod(math.floor(-query.property('mtc:s_lr')/16),2) == 1"
+                        },
+                        {
+                            "s1_l32": "query.property('mtc:s_lr')<0 && math.mod(math.floor(-query.property('mtc:s_lr')/32),2) == 1"
+                        },
+                        {
+                            "s1_l64": "query.property('mtc:s_lr')<0 && math.mod(math.floor(-query.property('mtc:s_lr')/64),2) == 1"
+                        },
+                        {
+                            "s1_l128": "query.property('mtc:s_lr')<0 && math.mod(math.floor(-query.property('mtc:s_lr')/128),2) == 1"
+                        },
+                        {
+                            "s1_u1": "query.property('mtc:s_ud')>0 && math.mod(math.floor(query.property('mtc:s_ud')/1),2) == 1"
+                        },
+                        {
+                            "s1_u2": "query.property('mtc:s_ud')>0 && math.mod(math.floor(query.property('mtc:s_ud')/2),2) == 1"
+                        },
+                        {
+                            "s1_u4": "query.property('mtc:s_ud')>0 && math.mod(math.floor(query.property('mtc:s_ud')/4),2) == 1"
+                        },
+                        {
+                            "s1_u8": "query.property('mtc:s_ud')>0 && math.mod(math.floor(query.property('mtc:s_ud')/8),2) == 1"
+                        },
+                        {
+                            "s1_u16": "query.property('mtc:s_ud')>0 && math.mod(math.floor(query.property('mtc:s_ud')/16),2) == 1"
+                        },
+                        {
+                            "s1_u32": "query.property('mtc:s_ud')>0 && math.mod(math.floor(query.property('mtc:s_ud')/32),2) == 1"
+                        },
+                        {
+                            "s1_u64": "query.property('mtc:s_ud')>0 && math.mod(math.floor(query.property('mtc:s_ud')/64),2) == 1"
+                        },
+                        {
+                            "s1_u128": "query.property('mtc:s_ud')>0 && math.mod(math.floor(query.property('mtc:s_ud')/128),2) == 1"
+                        },
+                        {
+                            "s1_d1": "query.property('mtc:s_ud')<0 && math.mod(math.floor(-query.property('mtc:s_ud')/1),2) == 1"
+                        },
+                        {
+                            "s1_d2": "query.property('mtc:s_ud')<0 && math.mod(math.floor(-query.property('mtc:s_ud')/2),2) == 1"
+                        },
+                        {
+                            "s1_d4": "query.property('mtc:s_ud')<0 && math.mod(math.floor(-query.property('mtc:s_ud')/4),2) == 1"
+                        },
+                        {
+                            "s1_d8": "query.property('mtc:s_ud')<0 && math.mod(math.floor(-query.property('mtc:s_ud')/8),2) == 1"
+                        },
+                        {
+                            "s1_d16": "query.property('mtc:s_ud')<0 && math.mod(math.floor(-query.property('mtc:s_ud')/16),2) == 1"
+                        },
+                        {
+                            "s1_d32": "query.property('mtc:s_ud')<0 && math.mod(math.floor(-query.property('mtc:s_ud')/32),2) == 1"
+                        },
+                        {
+                            "s1_d64": "query.property('mtc:s_ud')<0 && math.mod(math.floor(-query.property('mtc:s_ud')/64),2) == 1"
+                        },
+                        {
+                            "s1_d128": "query.property('mtc:s_ud')<0 && math.mod(math.floor(-query.property('mtc:s_ud')/128),2) == 1"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,147 @@
+mtc:operation=MTC 조작 항목	＃
+mtc:setting=MTC 작업 항목	＃
+
+mtc:mtc.ui.controll=제어	＃
+mtc:mtc.ui.settings=설정	＃
+mtc:mtc.ui.door=문 열기	＃
+mtc:mtc.ui.doorO=문 §2열기	＃
+mtc:mtc.ui.doorC=문 §c닫기	＃
+mtc:mtc.ui.maku=행선판	＃
+mtc:mtc.ui.ani=사용자 지정 애니메이션	＃
+mtc:mtc.ui.sound=루프 사운드	＃
+mtc:mtc.ui.horn=사운드	＃
+mtc:mtc.ui.kill_train=§c차량 제거	＃
+mtc:mtc.ui.kill_all=§l§6※※§r§c모든 차량 제거§l§6※※	＃
+mtc:mtc.ui.kill_formation=§c편성 제거	＃
+mtc:mtc.ui.selseat=차량 좌석 선택 §2활성화	＃
+mtc:mtc.ui.d_selseat=차량 좌석 선택 §c비활성화	＃
+mtc:mtc.ui.rot=90도 회전	＃
+mtc:mtc.ui.connect=§2연결	＃
+mtc:mtc.ui.disconnect=§c분리	＃
+mtc:mtc.ui.now_on=§c정지	＃
+mtc:mtc.ui.now_off=§2재생	＃
+mtc:mtc.ui.back=뒤로	＃
+mtc:mtc.ui.resel=호차를 다시 선택	#
+mtc:mtc.ui.tsel_back=형식을 다시 선택	#
+mtc:mtc.ui.spawn_btn=칸 §l§2소환!	＃
+mtc:mtc.ui.doorL=왼쪽 문 §2열림	＃
+mtc:mtc.ui.doorR=오른쪽 문 §2열림	＃
+mtc:mtc.ui.doorB=양쪽 문 §2열림	＃
+mtc:mtc.ui.doorFr=앞문 §2열림	＃
+mtc:mtc.ui.doorBa=뒷문 §2열림	＃
+mtc:mtc.ui.doorBB=모든 문 §2열림	＃
+mtc:mtc.ui.setting=기타 설정	＃
+mtc:mtc.ui.pg_on=홈 도어 연동 §2활성화	＃
+mtc:mtc.ui.pg_off=홈 도어 연동 §c비활성화	＃
+mtc:mtc.ui.tilt_on=좌석 기울기 §2활성화	＃
+mtc:mtc.ui.tilt_off=좌석 기울기 §c비활성화	＃
+mtc:mtc.msg.tilt_on=좌석 기울기를 활성화했습니다. 이 기능은 좌석 기울기를 지원하는 차량 애드온이 필요합니다. 또한 부하가 매우 크므로 주의하시기 바랍니다.	＃
+mtc:mtc.ui.tilt_car_on=차체 기울이기 §2활성화	＃
+mtc:mtc.ui.tilt_car_off=차체 기울이기 §c비활성화	＃
+mtc:mtc.ui.resist_on=주행 저항 §2활성화	＃
+mtc:mtc.ui.resist_off=주행 저항 §c비활성화	＃
+mtc:mtc.ui.stop=§c비상 정지	＃
+mtc:mtc.ui.stop_all=§l§e모든 편성§r§c 비상 정지	＃
+mtc:mtc.ui.rail=레일 종류	＃
+mtc:mtc.ui.cancel=§6취소	＃
+mtc:mtc.ui.remove_m=§c이 마커 제거	＃
+mtc:mtc.ui.remove_ma=§c모든 마커 제거	＃
+mtc:mtc.ui.setrail1=§e레일 설치 중	＃
+mtc:mtc.ui.setrail2=§e분기 설치 중	＃
+mtc:mtc.ui.setrailok=§2설치 완료	＃
+mtc:mtc.ui.rail_title=캔트 설정	＃
+mtc:mtc.ui.cant_max=최대 캔트 각도	＃
+mtc:mtc.ui.cant_spd=커브 통과 속도 [km/h] (숫자만, 캔트를 사용하지 않을 때는 설정 불필요)	＃
+mtc:mtc.ui.cant_spd_alt=사용하지 않을 경우 비워 두세요.	＃
+mtc:mtc.ui.joint=조인트 간격 [m] (숫자만)	＃
+mtc:mtc.ui.tunnel=블록 굴착	＃
+mtc:mtc.ui.tunnel_title=블록 굴착량	＃
+mtc:mtc.ui.tunnel_l=왼쪽(블록)	＃
+mtc:mtc.ui.tunnel_r=오른쪽(블록)	＃
+mtc:mtc.ui.tunnel_u=위쪽(블록)	＃
+mtc:mtc.ui.tunnel_d=아래쪽(블록)	＃
+mtc:mtc.ui.enable_rainani=포인트 애니메이션 §2활성화	＃
+mtc:mtc.ui.disable_rainani=포인트 애니메이션 §c비활성화	＃
+mtc:mtc.ui.type=타입들	＃
+mtc:mtc.ui.door_mode=도어 모드	＃
+mtc:mtc.ui.enable_autolook=자동 시선 회전을 §2활성화합니다	＃
+mtc:mtc.ui.disable_autolook=자동 시선 회전을 §c비활성화합니다	＃
+
+mtc:mtc.ui.pole=가선주 설치	＃
+mtc:mtc.ui.pole_edge=끝에 가선주를 설치하시겠습니까?	＃
+mtc:polename.def0=단선	＃
+mtc:polename.def1=복선	＃
+mtc:polename.def2=가선만	＃
+
+mtc:mtc.ui.spawn_settings=호차 선택 중	＃
+mtc:mtc.ui.spawn_settings1=: 형식을 선택하세요	＃
+mtc:mtc.ui.spawn_settings2=: 차량을 선택하세요	＃
+mtc:mtc.ui.spawn_setinv=소환 방향 설정	＃
+mtc:mtc.ui.spawn_normal=소환	＃
+mtc:mtc.ui.spawn_inv=§l§c전후 반전하여§r 소환	＃
+
+
+mtc:mtc.ui.disable_selseat=편성의 좌석 선택이 비활성화되었습니다.	＃
+
+mtc:mtc.ui.from_spawn=스폰 지점에서의 주행 거리	＃
+mtc:mtc.ui.from_last=마지막으로 측정한 지점에서의 주행 거리	＃
+
+mtc:mtc.warn.rail_mk_rem=§c분기의 루트 마커는 삭제할 수 없습니다.	＃
+mtc:mtc.warn.no_train=§c월드에 차량이 없습니다.	＃
+mtc:mtc.warn.no_controll=§c조작할 차량을 찾을 수 없습니다.	＃
+mtc:mtc.warn.no_autopirot=§c자동 조종 장치를 사용할 수 없는 기체입니다.	＃
+mtc:mtc.warn.no_marker0=§c선로 마커가 없는 상태에서 분기 마커를 사용할 수 없습니다.	＃
+mtc:mtc.warn.no_marker1=§c빨간 마커가 2개 이상 필요합니다.	＃
+mtc:mtc.warn.no_marker2=§c직각 이상의 포인트는 생성할 수 없습니다.	＃
+mtc:mtc.warn.tilt_no_selseat=§c차체 기울이기가 활성화된 경우 열차 좌석 선택이 강제됩니다.	＃
+mtc:mtc.warn.rr_structure=§l§c[경고]§r§cReal Rail이 구조물 블록으로 복제되었습니다. 반전 옵션을 사용하는 경우 올바르게 복제되지 않을 수 있습니다.	＃
+
+mtc:railname.def0=투명	＃
+mtc:railname.def1=일반 레일	＃
+mtc:railname.def2=일반 레일+갈색 자갈	＃
+mtc:railname.def3=일반 레일+회색 자갈	＃
+mtc:railname.def4=1067mm 침목	＃
+mtc:railname.def5=1067mm 침목+갈색 자갈	＃
+mtc:railname.def6=1067mm 침목+회색 자갈	＃
+mtc:railname.def7=1067mm PC 침목	＃
+mtc:railname.def8=1067mm PC 침목+갈색 자갈	＃
+mtc:railname.def9=1067mm PC 침목+회색 자갈	＃
+mtc:railname.def10=1067mm 건널목	＃
+mtc:railname.def11=투명(버스용)	＃
+
+item.mtc:i_notp=MTC P	＃
+item.mtc:i_notn=MTC N	＃
+item.mtc:i_notb=MTC B	＃
+item.mtc:i_noteb=MTC EB	＃
+item.mtc:i_reverse=MTC 진행 방향 전환	＃
+item.mtc:i_set=MTC 차량 조작	＃
+item.mtc:i_set2=MTC 설정	＃
+item.mtc:i_spawn=MTC 차량 생성	＃
+item.mtc:i_marker0=MTC 선로 마커/레일 설치/레일 삭제	＃
+item.mtc:i_marker1=MTC 분기 마커/레일 설치/레일 일괄 삭제	＃
+item.mtc:i_marker2=MTC 가선주 마커/가선주 삭제	＃
+
+item.spawn_egg.entity.mtc:kill_train.name=[구 버전]MTC 차량 제거	＃
+item.spawn_egg.entity.mtc:rot.name=[구 버전]MTC 90도 회전	＃
+item.spawn_egg.entity.mtc:notp.name=[구 버전]MTC P	＃
+item.spawn_egg.entity.mtc:notn.name=[구 버전]MTC N	＃
+item.spawn_egg.entity.mtc:notb.name=[구 버전]MTC B	＃
+item.spawn_egg.entity.mtc:noteb.name=[구 버전]MTC EB	＃
+item.spawn_egg.entity.mtc:reverse.name=[구 버전]MTC 진행 방향 전환	＃
+
+
+item.spawn_egg.entity.mtc:joumu.name=[구 버전]MTC 승무	＃
+item.spawn_egg.entity.mtc:connect.name=[구 버전]MTC 연결	＃
+item.spawn_egg.entity.mtc:disconnect.name=[구 버전]MTC 분리	＃
+
+item.spawn_egg.entity.mtc:doorL.name=[구 버전]MTC 왼쪽 문	＃
+item.spawn_egg.entity.mtc:doorR.name=[구 버전]MTC 오른쪽 문	＃
+item.spawn_egg.entity.mtc:doorB.name=[구 버전]MTC 양쪽 문	＃
+item.spawn_egg.entity.mtc:modep.name=[구 버전]MTC 행선판 정転	＃
+item.spawn_egg.entity.mtc:modem.name=[구 버전]MTC 행선판 역転	＃
+item.spawn_egg.entity.mtc:selseat.name=[구 버전]MTC 좌석 선택 활성화	＃
+item.spawn_egg.entity.mtc:ani1.name=[구 버전]MTC 애니메이션 1 재생/정지	＃
+item.spawn_egg.entity.mtc:ani2.name=[구 버전]MTC 애니메이션 2 재생/정지	＃
+item.spawn_egg.entity.mtc:sound1.name=[구 버전]MTC 사운드 1 재생/정지	＃
+
+action.hint.exit.mtc:seat=점프하여 내리기	＃

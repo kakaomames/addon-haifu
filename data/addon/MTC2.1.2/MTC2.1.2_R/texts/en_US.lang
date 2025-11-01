@@ -1,0 +1,147 @@
+mtc:operation=MTC Operation Item	＃
+mtc:setting=MTC Work Item	＃
+
+mtc:mtc.ui.controll=Operation	＃
+mtc:mtc.ui.settings=Settings	＃
+mtc:mtc.ui.door=Open Door	＃
+mtc:mtc.ui.doorO=Open §2Door	＃
+mtc:mtc.ui.doorC=Close §cDoor	＃
+mtc:mtc.ui.maku=Destination Sign	＃
+mtc:mtc.ui.ani=Custom Animation	＃
+mtc:mtc.ui.sound=Loop Sound	＃
+mtc:mtc.ui.horn=Sound	＃
+mtc:mtc.ui.kill_train=Remove §cTrain	＃
+mtc:mtc.ui.kill_all=Remove §l§6※※§r§cAll Trains§l§6※※	＃
+mtc:mtc.ui.kill_formation=Remove §cFormation	＃
+mtc:mtc.ui.selseat=§2Enable§r train seat selection	＃
+mtc:mtc.ui.d_selseat=§cDisable§r train seat selection	＃
+mtc:mtc.ui.rot=Rotate 90 Degrees	＃
+mtc:mtc.ui.connect=§2Couple	＃
+mtc:mtc.ui.disconnect=§cUncouple	＃
+mtc:mtc.ui.now_on=§cStop	＃
+mtc:mtc.ui.now_off=§2Play	＃
+mtc:mtc.ui.back=Back	＃
+mtc:mtc.ui.resel= Select car again	#
+mtc:mtc.ui.tsel_back=Select model again	#
+mtc:mtc.ui.spawn_btn=Cars §l§2Summon!	＃
+mtc:mtc.ui.doorL=Left Door §2Open	＃
+mtc:mtc.ui.doorR=Right Door §2Open	＃
+mtc:mtc.ui.doorB=Both Doors §2Open	＃
+mtc:mtc.ui.doorFr=Front Door §2Open	＃
+mtc:mtc.ui.doorBa=Rear Door §2Open	＃
+mtc:mtc.ui.doorBB=All Doors §2Open	＃
+mtc:mtc.ui.setting=Other Settings	＃
+mtc:mtc.ui.pg_on=§2Enable§r platform screen door interlocking	＃
+mtc:mtc.ui.pg_off=§cDisable§r platform screen door interlocking	＃
+mtc:mtc.ui.tilt_on=Seat Tilt §2Enabled	#
+mtc:mtc.ui.tilt_off=Seat Tilt §cDisabled	#
+mtc:mtc.msg.tilt_on=Seat tilt has been enabled. This feature requires a vehicle add-on that supports seat tilting. Please be aware that this feature is very resource-intensive.	#
+mtc:mtc.ui.tilt_car_on=§2Enable§r train tilting	＃
+mtc:mtc.ui.tilt_car_off=§cDisable§r train tilting	＃
+mtc:mtc.ui.resist_on=§2Enable§r running resistance	＃
+mtc:mtc.ui.resist_off=§cDisable§r running resistance	＃
+mtc:mtc.ui.stop=§cEmergency Stop	＃
+mtc:mtc.ui.stop_all=§l§eAll Formations§r§c Emergency Stop	＃
+mtc:mtc.ui.rail=Rail Type	＃
+mtc:mtc.ui.cancel=§6Cancel	＃
+mtc:mtc.ui.remove_m=§cRemove This Marker	＃
+mtc:mtc.ui.remove_ma=§cRemove All Markers	＃
+mtc:mtc.ui.setrail1=§ePlacing Rail	＃
+mtc:mtc.ui.setrail2=§ePlacing Junction	＃
+mtc:mtc.ui.setrailok=§2Placement Complete	＃
+mtc:mtc.ui.rail_title=Cant Settings	＃
+mtc:mtc.ui.cant_max=Maximum Cant Angle	＃
+mtc:mtc.ui.cant_spd=Curve Passing Speed [km/h] (Numbers Only, No Setting Required When Cant is Not Used)	＃
+mtc:mtc.ui.cant_spd_alt=Leave blank if not used	＃
+mtc:mtc.ui.joint=Joint Spacing [m] (Numbers Only)	＃
+mtc:mtc.ui.tunnel=Block Excavation	＃
+mtc:mtc.ui.tunnel_title=Block Excavation Amount	＃
+mtc:mtc.ui.tunnel_l=Left (block)	＃
+mtc:mtc.ui.tunnel_r=Right (block)	＃
+mtc:mtc.ui.tunnel_u=Up (block)	＃
+mtc:mtc.ui.tunnel_d=Down (block)	＃
+mtc:mtc.ui.enable_rainani=§2Enable§r point animation	＃
+mtc:mtc.ui.disable_rainani=§cDisable§r point animation	＃
+mtc:mtc.ui.type=types	＃
+mtc:mtc.ui.door_mode=Door Mode	＃
+mtc:mtc.ui.enable_autolook=§2Enable auto-look	＃
+mtc:mtc.ui.disable_autolook=§cDisable auto-look	＃
+
+mtc:mtc.ui.pole=Overhead Wire Pole Installation	＃
+mtc:mtc.ui.pole_edge=Install overhead wire poles at the end?	＃
+mtc:polename.def0=Single Track	＃
+mtc:polename.def1=Double Track	＃
+mtc:polename.def2=Overhead Wires Only	＃
+
+mtc:mtc.ui.spawn_settings=Cars Selected#
+mtc:mtc.ui.spawn_settings1=: Select a type	＃
+mtc:mtc.ui.spawn_settings2=: Select a vehicle	＃
+mtc:mtc.ui.spawn_setinv=Summon Direction Settings	＃
+mtc:mtc.ui.spawn_normal=Summon	＃
+mtc:mtc.ui.spawn_inv=Summon §l§cReversed§r	＃
+
+
+mtc:mtc.ui.disable_selseat=Train seat selection has been disabled.	＃
+
+mtc:mtc.ui.from_spawn=Distance Traveled from Spawn Point	＃
+mtc:mtc.ui.from_last=Distance Traveled from Last Measured Point	＃
+
+mtc:mtc.warn.rail_mk_rem=§cCannot remove the marker at the root of the junction	＃
+mtc:mtc.warn.no_train=§cThere are no trains in the world	＃
+mtc:mtc.warn.no_controll=§cCould not find the train to operate	＃
+mtc:mtc.warn.no_autopirot=§cThis train cannot use autopilot	＃
+mtc:mtc.warn.no_marker0=§cJunction markers cannot be used without track markers	＃
+mtc:mtc.warn.no_marker1=§cAt least two red markers are required.	＃
+mtc:mtc.warn.no_marker2=§cCannot create a point with an angle of 90 degrees or more.	＃
+mtc:mtc.warn.tilt_no_selseat=§cTrain seat selection is forced when train tilting is enabled	＃
+mtc:mtc.warn.rr_structure=§l§c[Warning]§r§cReal Rail was duplicated with a structure block. If the mirroring option is used, it may not be duplicated correctly.	＃
+
+mtc:railname.def0=Invisible	＃
+mtc:railname.def1=Normal Rail	＃
+mtc:railname.def2=Normal Rail + Brown Ballast	＃
+mtc:railname.def3=Normal Rail + Gray Ballast	＃
+mtc:railname.def4=1067mm Sleeper	＃
+mtc:railname.def5=1067mm Sleeper + Brown Ballast	＃
+mtc:railname.def6=1067mm Sleeper + Gray Ballast	＃
+mtc:railname.def7=1067mm PC Sleeper	＃
+mtc:railname.def8=1067mm PC Sleeper + Brown Ballast	＃
+mtc:railname.def9=1067mm PC Sleeper + Gray Ballast	＃
+mtc:railname.def10=1067mm Railroad Crossing	＃
+mtc:railname.def11=Invisible (For Bus)	＃
+
+item.mtc:i_notp=MTC P	＃
+item.mtc:i_notn=MTC N	＃
+item.mtc:i_notb=MTC B	＃
+item.mtc:i_noteb=MTC EB	＃
+item.mtc:i_reverse=MTC Change Travel Direction	＃
+item.mtc:i_set=MTC Train Operation	＃
+item.mtc:i_set2=MTC Settings	＃
+item.mtc:i_spawn=MTC Spawn Train	＃
+item.mtc:i_marker0=MTC Track Marker/Place Rail/Remove Rail	＃
+item.mtc:i_marker1=MTC Junction Marker/Place Rail/Remove All Rails	＃
+item.mtc:i_marker2=MTC Overhead Wire Pole Marker/Remove Overhead Wire Pole	＃
+
+item.spawn_egg.entity.mtc:kill_train.name=[Old Version]MTC Remove Train	＃
+item.spawn_egg.entity.mtc:rot.name=[Old Version]MTC Rotate 90 Degrees	＃
+item.spawn_egg.entity.mtc:notp.name=[Old Version]MTC P	＃
+item.spawn_egg.entity.mtc:notn.name=[Old Version]MTC N	＃
+item.spawn_egg.entity.mtc:notb.name=[Old Version]MTC B	＃
+item.spawn_egg.entity.mtc:noteb.name=[Old Version]MTC EB	＃
+item.spawn_egg.entity.mtc:reverse.name=[Old Version]MTC Change Travel Direction	＃
+
+
+item.spawn_egg.entity.mtc:joumu.name=[Old Version]MTC Board	＃
+item.spawn_egg.entity.mtc:connect.name=[Old Version]MTC Couple	＃
+item.spawn_egg.entity.mtc:disconnect.name=[Old Version]MTC Uncouple	＃
+
+item.spawn_egg.entity.mtc:doorL.name=[Old Version]MTC Left Door	＃
+item.spawn_egg.entity.mtc:doorR.name=[Old Version]MTC Right Door	＃
+item.spawn_egg.entity.mtc:doorB.name=[Old Version]MTC Both Doors	＃
+item.spawn_egg.entity.mtc:modep.name=[Old Version]MTC Destination Sign Forward	＃
+item.spawn_egg.entity.mtc:modem.name=[Old Version]MTC Destination Sign Backward	＃
+item.spawn_egg.entity.mtc:selseat.name=[Old Version]MTC Enable Seat Selection	＃
+item.spawn_egg.entity.mtc:ani1.name=[Old Version]MTC Animation 1 Play/Stop	＃
+item.spawn_egg.entity.mtc:ani2.name=[Old Version]MTC Animation 2 Play/Stop	＃
+item.spawn_egg.entity.mtc:sound1.name=[Old Version]MTC Sound 1 Play/Stop	＃
+
+action.hint.exit.mtc:seat=Jump to exit	＃

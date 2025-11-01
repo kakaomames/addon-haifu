@@ -1,0 +1,16 @@
+{
+    "mtc.notch": {
+        "category": "neutral",
+        "max_distance": 256.0,
+        "sounds": [
+            "sounds/mtc/notch"
+        ]
+    },
+    "mtc.joint": {
+        "category": "neutral",
+        "max_distance": 256.0,
+        "sounds": [
+            "sounds/mtc/joint"
+        ]
+    }
+}

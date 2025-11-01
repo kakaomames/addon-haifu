@@ -1,0 +1,37 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.tilt_common.roll": {
+			"loop": "hold_on_last_frame",
+			"bones": {
+				"mtc_body_v2": {
+					"rotation": [0,0,"query.property('mtc:roll')"]
+				}
+			}
+		},
+		"animation.tilt_common.pitch": {
+			"loop": "hold_on_last_frame",
+			"bones": {
+				"mtc_body_v2": {
+					"rotation": ["query.property('mtc:pitch')",0,0]
+				}
+			}
+		},
+		"animation.tilt_common.dh": {
+			"loop": "hold_on_last_frame",
+			"bones": {
+				"mtc_dh_v2": {
+					"rotation": [0, "query.property('mtc:dh')", 0]
+				}
+			}
+		},
+		"animation.tilt_common.db": {
+			"loop": "hold_on_last_frame",
+			"bones": {
+				"mtc_db_v2": {
+					"rotation": [0, "query.property('mtc:db')", 0]
+				}
+			}
+		}
+	}
+}

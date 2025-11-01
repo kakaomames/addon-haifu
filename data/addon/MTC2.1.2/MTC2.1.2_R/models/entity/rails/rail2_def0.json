@@ -1,0 +1,12 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.mtc_rail2_def0",
+				"texture_width": 256,
+				"texture_height": 128
+			}
+		}
+	]
+}

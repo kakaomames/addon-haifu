@@ -1,0 +1,26 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.tilt_common.tilt": {
+            "initial_state": "default",
+            "states": {
+                "default": {
+                    "animations": [
+                        {
+                            "common_roll": "1.0"
+                        },
+                        {
+                            "common_pitch": "1.0"
+                        },
+                        {
+                            "common_dh": "1.0"
+                        },
+                        {
+                            "common_db": "1.0"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

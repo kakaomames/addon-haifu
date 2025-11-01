@@ -1,0 +1,148 @@
+mtc:operation=MTC 操作アイテム	＃
+mtc:setting=MTC 作業アイテム	＃
+
+mtc:mtc.ui.controll=操作	＃
+mtc:mtc.ui.settings=設定	＃
+mtc:mtc.ui.door=ドア開	＃
+mtc:mtc.ui.doorO=ドア§2開け	＃
+mtc:mtc.ui.doorC=ドア§c閉め	＃
+mtc:mtc.ui.maku=方向幕	＃
+mtc:mtc.ui.ani=カスタムアニメーション	＃
+mtc:mtc.ui.sound=ループ音声	＃
+mtc:mtc.ui.horn=サウンド 	＃
+mtc:mtc.ui.kill_train=§c車両を消す	＃
+mtc:mtc.ui.kill_all=§l§6※※§r§c全ての車両を消す§l§6※※	＃
+mtc:mtc.ui.kill_formation=§c編成を消す	＃
+mtc:mtc.ui.selseat=車両の座席選択を§2有効にする	＃
+mtc:mtc.ui.d_selseat=車両の座席選択を§c無効にする	＃
+mtc:mtc.ui.rot=90度回転	＃
+mtc:mtc.ui.connect=§2連結	＃
+mtc:mtc.ui.disconnect=§c解結	＃
+mtc:mtc.ui.now_on=§c停止する	＃
+mtc:mtc.ui.now_off=§2再生する	＃
+mtc:mtc.ui.back=戻る	＃
+mtc:mtc.ui.resel=号車を選択しなおす	＃
+mtc:mtc.ui.tsel_back=形式を選択しなおす	＃
+mtc:mtc.ui.spawn_btn=両で§l§2召喚！	＃
+mtc:mtc.ui.doorL=左ドア §2開	＃
+mtc:mtc.ui.doorR=右ドア §2開	＃
+mtc:mtc.ui.doorB=両ドア §2開	＃
+mtc:mtc.ui.doorFr=前ドア §2開	＃
+mtc:mtc.ui.doorBa=後ドア §2開	＃
+mtc:mtc.ui.doorBB=全ドア §2開	＃
+mtc:mtc.ui.setting=その他設定	＃
+mtc:mtc.ui.pg_on=ホームドア連動 §2有効にする	＃
+mtc:mtc.ui.pg_off=ホームドア連動 §c無効にする	＃
+mtc:mtc.ui.tilt_on=座席傾斜 §2有効にする	＃
+mtc:mtc.ui.tilt_off=座席傾斜 §c無効にする	＃
+mtc:mtc.msg.tilt_on=座席傾斜を有効にしました。この機能には座席傾斜に対応した車両アドオンが必要です。また、負荷が非常に大きいため注意してください。	＃
+mtc:mtc.ui.tilt_car_on=車体傾斜 §2有効にする	＃
+mtc:mtc.ui.tilt_car_off=車体傾斜 §c無効にする	＃
+mtc:mtc.ui.resist_on=走行抵抗 §2有効にする	＃
+mtc:mtc.ui.resist_off=走行抵抗 §c無効にする	＃
+mtc:mtc.ui.stop=§c緊急停止	＃
+mtc:mtc.ui.stop_all=§l§e全編成§r§c緊急停止	＃
+mtc:mtc.ui.rail=レールの種類	＃
+mtc:mtc.ui.cancel=§6キャンセル	＃
+mtc:mtc.ui.remove_m=§cこのマーカーを削除	＃
+mtc:mtc.ui.remove_ma=§c全てのマーカーを削除	＃
+mtc:mtc.ui.setrail1=§eレール設置中	＃
+mtc:mtc.ui.setrail2=§e分岐設置中	＃
+mtc:mtc.ui.setrailok=§2設置完了	＃
+mtc:mtc.ui.rail_title=カント設定	＃
+mtc:mtc.ui.cant_max=最大カント角	＃
+mtc:mtc.ui.cant_spd=カーブ通過速度 [km/h] (数字のみ・カント不使用時は設定不要)	＃
+mtc:mtc.ui.cant_spd_alt=使用しない場合は空欄のまま	＃
+mtc:mtc.ui.joint=ジョイント間隔 [m] ( 数字のみ )	＃
+mtc:mtc.ui.tunnel=ブロック掘削	＃
+mtc:mtc.ui.tunnel_title=ブロック掘削量	＃
+mtc:mtc.ui.tunnel_l=左(block)	＃
+mtc:mtc.ui.tunnel_r=右(block)	＃
+mtc:mtc.ui.tunnel_u=上(block)	＃
+mtc:mtc.ui.tunnel_d=下(block)	＃
+mtc:mtc.ui.enable_rainani=ポイントアニメーションを§2有効にする	＃
+mtc:mtc.ui.disable_rainani=ポイントアニメーションを§c無効にする	＃
+mtc:mtc.ui.type=種類	＃
+mtc:mtc.ui.door_mode=ドアモード	＃
+mtc:mtc.ui.enable_autolook=視線自動回転を§2有効にする	＃
+mtc:mtc.ui.disable_autolook=視線自動回転を§c無効にする	＃
+
+mtc:mtc.ui.pole=架線柱設置	＃
+mtc:mtc.ui.pole_edge=終端に架線柱を設置しますか？	＃
+mtc:polename.def0=単線	＃
+mtc:polename.def1=複線	＃
+mtc:polename.def2=架線のみ	＃
+
+mtc:mtc.ui.spawn_settings=号車を選択中	＃
+mtc:mtc.ui.spawn_settings1=: 形式を選択してください	＃
+mtc:mtc.ui.spawn_settings2=: 車両を選択してください	＃
+mtc:mtc.ui.spawn_setinv=召喚方向設定	＃
+mtc:mtc.ui.spawn_normal=召喚する	＃
+mtc:mtc.ui.spawn_inv=§l§c前後を反転して§r召喚する	＃
+
+
+mtc:mtc.ui.disable_selseat=編成の座席選択を無効化しました	＃
+
+mtc:mtc.ui.from_spawn=スポーンした地点からの走行距離	＃
+mtc:mtc.ui.from_last=最後に測定した地点からの走行距離	＃
+
+mtc:mtc.warn.rail_mk_rem=§c分岐の根元のマーカーは削除できません	＃
+mtc:mtc.warn.no_train=§cワールドに車両がありません	＃
+mtc:mtc.warn.no_controll=§c操作対象の車両が見つかりません	＃
+mtc:mtc.warn.no_autopirot=§cオートパイロットが使用できない機体です	＃
+mtc:mtc.warn.no_marker0=§c線路マーカーが無い状態で分岐マーカーを使用することはできません	＃
+mtc:mtc.warn.no_marker1=§c赤マーカーは2個以上必要です	＃
+mtc:mtc.warn.no_marker2=§c直角以上のポイントは作成できません	＃
+mtc:mtc.warn.tilt_no_selseat=§c車体傾斜有効時は列車の座席選択が強制されます	＃
+mtc:mtc.warn.rr_structure=§l§c[警告]§r§cReal Railがストラクチャーブロックで複製されました。反転オプションが使用されている場合、正しく複製されない場合があります。	＃
+
+mtc:railname.def0=透明	＃
+mtc:railname.def1=通常レール	＃
+mtc:railname.def2=通常レール+茶バラスト	＃
+mtc:railname.def3=通常レール+灰バラスト	＃
+mtc:railname.def4=1067mm枕木	＃
+mtc:railname.def5=1067mm枕木+茶バラスト	＃
+mtc:railname.def6=1067mm枕木+灰バラスト	＃
+mtc:railname.def7=1067mmPC枕木	＃
+mtc:railname.def8=1067mmPC枕木+茶バラスト	＃
+mtc:railname.def9=1067mmPC枕木+灰バラスト	＃
+mtc:railname.def10=1067mm踏切	＃
+mtc:railname.def11=透明(バス用)	＃
+
+item.mtc:i_notp=MTC P	＃
+item.mtc:i_notn=MTC N	＃
+item.mtc:i_notb=MTC B	＃
+item.mtc:i_noteb=MTC EB	＃
+item.mtc:i_reverse=MTC 進行方向切替	＃
+item.mtc:i_set=MTC 車両操作	＃
+item.mtc:i_set2=MTC 設定	＃
+item.mtc:i_spawn=MTC 車両を出す	＃
+item.mtc:i_marker0=MTC 線路マーカー/レール設置/レール削除	＃
+item.mtc:i_marker1=MTC 分岐マーカー/レール設置/レール一斉削除	＃
+item.mtc:i_marker2=MTC 架線柱マーカー/架線柱削除	＃
+
+item.spawn_egg.entity.mtc:kill_train.name=[旧版]MTC 車両を消す	＃
+item.spawn_egg.entity.mtc:rot.name=[旧版]MTC 90度回転	＃
+item.spawn_egg.entity.mtc:notp.name=[旧版]MTC P	＃
+item.spawn_egg.entity.mtc:notn.name=[旧版]MTC N	＃
+item.spawn_egg.entity.mtc:notb.name=[旧版]MTC B	＃
+item.spawn_egg.entity.mtc:noteb.name=[旧版]MTC EB	＃
+item.spawn_egg.entity.mtc:reverse.name=[旧版]MTC 進行方向切替	＃
+
+
+item.spawn_egg.entity.mtc:joumu.name=[旧版]MTC 乗務する	＃
+item.spawn_egg.entity.mtc:connect.name=[旧版]MTC 連結	＃
+item.spawn_egg.entity.mtc:disconnect.name=[旧版]MTC 解結	＃
+
+item.spawn_egg.entity.mtc:doorL.name=[旧版]MTC 左ドア	＃
+item.spawn_egg.entity.mtc:doorR.name=[旧版]MTC 右ドア	＃
+item.spawn_egg.entity.mtc:doorB.name=[旧版]MTC 両ドア	＃
+item.spawn_egg.entity.mtc:modep.name=[旧版]MTC 幕正転	＃
+item.spawn_egg.entity.mtc:modem.name=[旧版]MTC 幕逆転	＃
+item.spawn_egg.entity.mtc:selseat.name=[旧版]MTC 座席選択有効化	＃
+item.spawn_egg.entity.mtc:ani1.name=[旧版]MTC アニメーション1 再生/停止	＃
+item.spawn_egg.entity.mtc:ani2.name=[旧版]MTC アニメーション2 再生/停止	＃
+item.spawn_egg.entity.mtc:sound1.name=[旧版]MTC サウンド1 再生/停止	＃
+
+action.hint.exit.mtc:seat=ジャンプで降りる	＃
+
