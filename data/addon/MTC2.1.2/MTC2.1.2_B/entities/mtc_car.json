@@ -1,0 +1,59 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "mtc:mtc_car",
+            "is_spawnable": false,
+            "is_summonable": true,
+            "is_experimental": false,
+            "runtime_identifier": "minecraft:minecart" 
+        },
+        "component_groups": {
+        },
+        "components": {
+            "minecraft:is_stackable": {
+                "value": false
+            },
+            "minecraft:type_family": {
+                "family": [
+                    "mtc_car",
+                    "mtc_obj",
+                    "mtc_runnable"
+                ]
+            },
+            "minecraft:collision_box": {
+                "width": 0.98,
+                "height": 2.7
+            },
+            "minecraft:rail_movement": {
+                "max_speed":0.0
+            },
+            "minecraft:rideable": {
+                "seat_count": 1,
+                "pull_in_entities": true,
+                "family_types": ["mtc_proc"],
+                "seats": [
+                    {
+                        "position": [ 0, -1.6, 0 ],
+                        "min_rider_count": 0,
+                        "max_rider_count": 1
+                    }
+                ]
+            },
+            "minecraft:physics": {
+                "has_collision": true,
+                "has_gravity": false
+            },
+            "minecraft:pushable": {
+                "is_pushable": false,
+                "is_pushable_by_piston": false
+            },
+            "minecraft:tick_world": {
+                "radius": 2,
+                "never_despawn": true
+            }
+        },
+        "events": {
+        }
+    }
+}

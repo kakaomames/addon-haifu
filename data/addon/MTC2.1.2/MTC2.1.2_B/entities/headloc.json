@@ -1,0 +1,56 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "mtc:mtc_headloc",
+            "is_spawnable": false,
+            "is_summonable": true,
+            "is_experimental": false,
+            "animations": {
+                "mtc_headloc_controller": "controller.animation.mtc_headloc"
+            },
+            "scripts": {
+                "animate": [
+                    "mtc_headloc_controller"
+                ]
+            }
+        },
+        "component_groups": {
+        },
+        "components": {
+            "minecraft:damage_sensor": {
+                "triggers": {
+                    "cause": "all",
+                    "deals_damage": false
+                }
+            },
+            "minecraft:is_stackable": {
+                "value": false
+            },
+            "minecraft:type_family": {
+                "family": [
+                    "mtc_headloc",
+                    "mtc_obj"
+                ]
+            },
+            "minecraft:collision_box": {
+                "width": 0.0,
+                "height": 0.0
+            },
+            "minecraft:physics": {
+                "has_collision": false,
+                "has_gravity": false
+            },
+            "minecraft:pushable": {
+                "is_pushable": false,
+                "is_pushable_by_piston": false
+            },
+            "minecraft:tick_world": {
+                "radius": 2,
+                "never_despawn": true
+            }
+        },
+        "events": {
+        }
+    }
+}

@@ -1,0 +1,65 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "mtc:death",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false,
+      "animations": {
+        "death_controller": "controller.animation.mtc_death"
+      },
+      "scripts": {
+        "animate": [
+          "death_controller"
+        ]
+      }
+    },
+    "components": {
+      "minecraft:damage_sensor": {
+        "triggers": {
+          "cause": "all",
+          "deals_damage": false
+        }
+      },
+      "minecraft:rideable": {
+        "seat_count": 1,
+        "interact_text": "action.interact.ride.minecart",
+        "pull_in_entities": true,
+        "family_types": ["mtc_seat"],
+        "seats": [
+          {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "min_rider_count": 0,
+            "max_rider_count": 1
+          }
+        ]
+      },
+      "minecraft:type_family": {
+        "family": [
+          "mtc_obj"
+        ]
+      },
+      "minecraft:collision_box": {
+        "width": 0,
+        "height": 0
+      },
+      "minecraft:health": {
+        "value": 1,
+        "max": 1
+      },
+      "minecraft:tick_world": {
+        "radius": 2,
+        "never_despawn": true
+      },
+      "minecraft:physics": {
+        "has_collision": false,
+        "has_gravity": false
+      }
+    }
+  }
+}

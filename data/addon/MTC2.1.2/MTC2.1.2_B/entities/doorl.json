@@ -1,0 +1,40 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "mtc:doorl",
+            "is_spawnable": true,
+            "is_summonable": true,
+            "is_experimental": false,
+            "animations": {
+                "doorl_controller": "controller.animation.doorl"
+            },
+            "scripts": {
+                "animate": [
+                    "doorl_controller"
+                ]
+            }
+        },
+        "components": {
+            "minecraft:collision_box": {
+                "width": 0,
+                "height": 0
+            },
+            "minecraft:type_family": {
+                "family": [
+                    "mtc_obj"
+                ]
+            },
+            "minecraft:scale": {
+                "value": 1
+            },
+            "minecraft:knockback_resistance": {
+                "value": 1
+            },
+            "minecraft:tick_world": {
+                "radius": 2,
+                "never_despawn": true
+            }
+        }
+    }
+}

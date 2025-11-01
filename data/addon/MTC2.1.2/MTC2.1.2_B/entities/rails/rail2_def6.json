@@ -1,0 +1,331 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "mtc:rail2_def6",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false,
+      "properties": {
+        "mtc:ver": {
+          "type": "int",
+          "range": [
+            0,
+            65535
+          ],
+          "default": 2
+        },
+        "mtc:ver_stat": {
+          "type": "int",
+          "range": [
+            0,
+            65535
+          ],
+          "default": 0
+        },
+        "mtc:stat": {
+          "type": "int",
+          "range": [
+            0,
+            2147483647
+          ],
+          "client_sync": true,
+          "default": 0
+        },
+        "mtc:point": {
+          "type": "int",
+          "range": [
+            0,
+            2
+          ],
+          "client_sync": true,
+          "default": 0
+        },
+        "mtc:data0": {
+          "type": "int",
+          "range": [
+            -2147483648,
+            2147483647
+          ],
+          "client_sync": true,
+          "default": 0
+        },
+        "mtc:data1": {
+          "type": "int",
+          "range": [
+            -2147483648,
+            2147483647
+          ],
+          "client_sync": true,
+          "default": 0
+        },
+        "mtc:data2": {
+          "type": "int",
+          "range": [
+            -2147483648,
+            2147483647
+          ],
+          "client_sync": true,
+          "default": 0
+        },
+        "mtc:data3": {
+          "type": "int",
+          "range": [
+            -2147483648,
+            2147483647
+          ],
+          "client_sync": true,
+          "default": 0
+        },
+        "mtc:data4": {
+          "type": "int",
+          "range": [
+            -2147483648,
+            2147483647
+          ],
+          "client_sync": true,
+          "default": 0
+        },
+        "mtc:data5": {
+          "type": "int",
+          "range": [
+            -2147483648,
+            2147483647
+          ],
+          "client_sync": true,
+          "default": 0
+        },
+        "mtc:data6": {
+          "type": "int",
+          "range": [
+            -2147483648,
+            2147483647
+          ],
+          "client_sync": true,
+          "default": 0
+        },
+        "mtc:data7": {
+          "type": "int",
+          "range": [
+            -2147483648,
+            2147483647
+          ],
+          "client_sync": true,
+          "default": 0
+        },
+        "mtc:data8": {
+          "type": "int",
+          "range": [
+            -2147483648,
+            2147483647
+          ],
+          "client_sync": true,
+          "default": 0
+        },
+        "mtc:data9": {
+          "type": "int",
+          "range": [
+            -2147483648,
+            2147483647
+          ],
+          "client_sync": true,
+          "default": 0
+        },
+        "mtc:data10": {
+          "type": "int",
+          "range": [
+            -2147483648,
+            2147483647
+          ],
+          "client_sync": true,
+          "default": 0
+        },
+        "mtc:data11": {
+          "type": "int",
+          "range": [
+            -2147483648,
+            2147483647
+          ],
+          "client_sync": true,
+          "default": 0
+        },
+        "mtc:data12": {
+          "type": "int",
+          "range": [
+            -2147483648,
+            2147483647
+          ],
+          "client_sync": true,
+          "default": 0
+        },
+        "mtc:data13": {
+          "type": "int",
+          "range": [
+            -2147483648,
+            2147483647
+          ],
+          "client_sync": true,
+          "default": 0
+        },
+        "mtc:data14": {
+          "type": "int",
+          "range": [
+            -2147483648,
+            2147483647
+          ],
+          "client_sync": true,
+          "default": 0
+        },
+        "mtc:data15": {
+          "type": "int",
+          "range": [
+            -2147483648,
+            2147483647
+          ],
+          "client_sync": true,
+          "default": 0
+        },
+        "mtc:data16": {
+          "type": "int",
+          "range": [
+            -2147483648,
+            2147483647
+          ],
+          "client_sync": true,
+          "default": 0
+        },
+        "mtc:data17": {
+          "type": "int",
+          "range": [
+            -2147483648,
+            2147483647
+          ],
+          "client_sync": true,
+          "default": 0
+        },
+        "mtc:data18": {
+          "type": "int",
+          "range": [
+            -2147483648,
+            2147483647
+          ],
+          "client_sync": true,
+          "default": 0
+        },
+        "mtc:data19": {
+          "type": "int",
+          "range": [
+            -2147483648,
+            2147483647
+          ],
+          "client_sync": true,
+          "default": 0
+        },
+        "mtc:data20": {
+          "type": "int",
+          "range": [
+            -2147483648,
+            2147483647
+          ],
+          "client_sync": true,
+          "default": 0
+        },
+        "mtc:data21": {
+          "type": "int",
+          "range": [
+            -2147483648,
+            2147483647
+          ],
+          "client_sync": true,
+          "default": 0
+        },
+        "mtc:data22": {
+          "type": "int",
+          "range": [
+            -2147483648,
+            2147483647
+          ],
+          "client_sync": true,
+          "default": 0
+        },
+        "mtc:data23": {
+          "type": "int",
+          "range": [
+            -2147483648,
+            2147483647
+          ],
+          "client_sync": true,
+          "default": 0
+        },
+        "mtc:data24": {
+          "type": "int",
+          "range": [
+            -2147483648,
+            2147483647
+          ],
+          "client_sync": true,
+          "default": 0
+        },
+        "mtc:data25": {
+          "type": "int",
+          "range": [
+            -2147483648,
+            2147483647
+          ],
+          "client_sync": true,
+          "default": 0
+        },
+        "mtc:data26": {
+          "type": "int",
+          "range": [
+            -2147483648,
+            2147483647
+          ],
+          "client_sync": true,
+          "default": 0
+        },
+        "mtc:data27": {
+          "type": "int",
+          "range": [
+            -2147483648,
+            2147483647
+          ],
+          "client_sync": true,
+          "default": 0
+        }
+      }
+    },
+    "component_groups": {},
+    "components": {
+      "minecraft:collision_box": {
+        "width": 0.5,
+        "height": 0.2
+      },
+      "minecraft:damage_sensor": {
+        "triggers": {
+          "cause": "all",
+          "deals_damage": false
+        }
+      },
+      "minecraft:type_family": {
+        "family": [
+          "mtc_rail",
+          "mtc_rail2"
+        ]
+      },
+      "minecraft:health": {
+        "value": 1,
+        "max": 1
+      },
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": false
+      },
+      "minecraft:physics": {
+        "has_collision": false,
+        "has_gravity": false
+      }
+    },
+    "events": {}
+  }
+}

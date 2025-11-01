@@ -1,0 +1,83 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "mtc:pole_def1",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false,
+      "properties": {
+        "mtc:ver": {
+          "type":"int",
+          "range": [0,65535],
+          "default": 2
+        },
+        "mtc:ver_stat": {
+          "type":"int",
+          "range": [0,65535],
+          "default": 0
+        },
+        "mtc:pole_base_h": {
+          "type":"bool",
+          "client_sync": true,
+          "default": true
+        },
+        "mtc:pole_base_deg": {
+          "type":"int",
+          "client_sync": true,
+          "range": [-255,255],
+          "default": 0
+        },
+        "mtc:n_s": {
+          "type":"int",
+          "client_sync": true,
+          "range": [0,32],
+          "default": 0
+        },
+        "mtc:s_lr": {
+          "type":"int",
+          "client_sync": true,
+          "range": [-255,255],
+          "default": 0
+        },
+        "mtc:s_ud": {
+          "type":"int",
+          "client_sync": true,
+          "range": [-255,255],
+          "default": 0
+        }
+      }
+    },
+    "component_groups": {},
+    "components": {
+      "minecraft:collision_box": {
+        "width": 0.45,
+        "height": 6.0
+      },
+      "minecraft:damage_sensor": {
+        "triggers": {
+          "cause": "all",
+          "deals_damage": false
+        }
+      },
+      "minecraft:type_family": {
+        "family": [
+          "mtc_pole"
+        ]
+      },
+      "minecraft:health": {
+        "value": 1,
+        "max": 1
+      },
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": false
+      },
+      "minecraft:physics": {
+        "has_collision": false,
+        "has_gravity": false
+      }
+    },
+    "events": {}
+  }
+}
