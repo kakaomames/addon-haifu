@@ -1,0 +1,62 @@
+{
+	"resource_pack_name": "mtc",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"spawn_mtc_controll": {
+			"textures": [
+				"textures/mtc_items/kill_train",
+				"textures/mtc_items/rot",
+				"textures/mtc_items/notp",
+				"textures/mtc_items/notn",
+				"textures/mtc_items/notb",
+				"textures/mtc_items/reverse",
+				"textures/mtc_items/joumu",
+				"textures/mtc_items/connect",
+				"textures/mtc_items/disconnect",
+				"textures/mtc_items/doorL",
+				"textures/mtc_items/doorR",
+				"textures/mtc_items/doorB",
+				"textures/mtc_items/modep",
+				"textures/mtc_items/modem",
+				"textures/mtc_items/selseat",
+				"textures/mtc_items/ani1",
+				"textures/mtc_items/ani2",
+				"textures/mtc_items/sound1",
+				"textures/mtc_items/noteb"
+			]
+		},
+		"mtc_notp": {
+			"textures":"textures/mtc_items/notp"
+		},
+		"mtc_notn": {
+			"textures":"textures/mtc_items/notn"
+		},
+		"mtc_notb": {
+			"textures":"textures/mtc_items/notb"
+		},
+		"mtc_noteb": {
+			"textures":"textures/mtc_items/noteb"
+		},
+		"mtc_reverse": {
+			"textures":"textures/mtc_items/reverse"
+		},
+		"mtc_set": {
+			"textures":"textures/mtc_items/mtc_set"
+		},
+		"mtc_set2": {
+			"textures":"textures/mtc_items/mtc_set2"
+		},
+		"mtc_spawn": {
+			"textures":"textures/mtc_items/spawn"
+		},
+		"mtc_marker0": {
+			"textures":"textures/mtc_marker/marker0"
+		},
+		"mtc_marker1": {
+			"textures":"textures/mtc_marker/marker1"
+		},
+		"mtc_marker2": {
+			"textures":"textures/mtc_marker/marker2"
+		}
+	}
+}
