@@ -1,0 +1,18 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "mtc:mtc_proc",
+      "materials": {
+        "default": "skeleton"
+      },
+      "textures": {
+        "default": "textures/entity/mtc_car"
+      },
+      "geometry": {
+        "default": "geometry.mtc_car"
+      },
+      "render_controllers": [ "controller.render.default" ]
+    }
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "mtc:pole_def0",
+      "materials": {
+        "default": "phantom",
+        "invisible": "phantom_invisible"
+      },
+      "textures": {
+        "default": "textures/entity/mtc_pole"
+      },
+      "geometry": {
+        "default": "geometry.mtc_pole_def0"
+      },
+      "animations": {
+        "b_h":"animation.rail.b_h",
+        "b_r1":"animation.rail.b_r1",
+        "b_r2":"animation.rail.b_r2",
+        "b_r3":"animation.rail.b_r3",
+        "b_r4":"animation.rail.b_r4",
+        "b_r5":"animation.rail.b_r5",
+        "b_r6":"animation.rail.b_r6",
+        "b_l1":"animation.rail.b_l1",
+        "b_l2":"animation.rail.b_l2",
+        "b_l3":"animation.rail.b_l3",
+        "b_l4":"animation.rail.b_l4",
+        "b_l5":"animation.rail.b_l5",
+        "b_l6":"animation.rail.b_l6",
+        "s1_h":"animation.rail.s1_h",
+        "s2_h":"animation.rail.s2_h",
+        "s3_h":"animation.rail.s3_h",
+        "s4_h":"animation.rail.s4_h",
+        "s5_h":"animation.rail.s5_h",
+        "s6_h":"animation.rail.s6_h",
+        "s7_h":"animation.rail.s7_h",
+        "s8_h":"animation.rail.s8_h",
+        "s9_h":"animation.rail.s9_h",
+        "s10_h":"animation.rail.s10_h",
+        "s11_h":"animation.rail.s11_h",
+        "s12_h":"animation.rail.s12_h",
+        "s13_h":"animation.rail.s13_h",
+        "s14_h":"animation.rail.s14_h",
+        "s15_h":"animation.rail.s15_h",
+        "s16_h":"animation.rail.s16_h",
+        "s17_h":"animation.rail.s17_h",
+        "s18_h":"animation.rail.s18_h",
+        "s19_h":"animation.rail.s19_h",
+        "s20_h":"animation.rail.s20_h",
+        "s21_h":"animation.rail.s21_h",
+        "s22_h":"animation.rail.s22_h",
+        "s23_h":"animation.rail.s23_h",
+        "s24_h":"animation.rail.s24_h",
+        "s25_h":"animation.rail.s25_h",
+        "s26_h":"animation.rail.s26_h",
+        "s27_h":"animation.rail.s27_h",
+        "s28_h":"animation.rail.s28_h",
+        "s29_h":"animation.rail.s29_h",
+        "s30_h":"animation.rail.s30_h",
+        "s31_h":"animation.rail.s31_h",
+        "s32_h":"animation.rail.s32_h",
+        "s1_r1":"animation.rail.s1_r1",
+        "s1_r2":"animation.rail.s1_r2",
+        "s1_r4":"animation.rail.s1_r4",
+        "s1_r8":"animation.rail.s1_r8",
+        "s1_r16":"animation.rail.s1_r16",
+        "s1_r32":"animation.rail.s1_r32",
+        "s1_r64":"animation.rail.s1_r64",
+        "s1_r128":"animation.rail.s1_r128",
+        "s1_l1":"animation.rail.s1_l1",
+        "s1_l2":"animation.rail.s1_l2",
+        "s1_l4":"animation.rail.s1_l4",
+        "s1_l8":"animation.rail.s1_l8",
+        "s1_l16":"animation.rail.s1_l16",
+        "s1_l32":"animation.rail.s1_l32",
+        "s1_l64":"animation.rail.s1_l64",
+        "s1_l128":"animation.rail.s1_l128",
+        "s1_u1":"animation.rail.s1_u1",
+        "s1_u2":"animation.rail.s1_u2",
+        "s1_u4":"animation.rail.s1_u4",
+        "s1_u8":"animation.rail.s1_u8",
+        "s1_u16":"animation.rail.s1_u16",
+        "s1_u32":"animation.rail.s1_u32",
+        "s1_u64":"animation.rail.s1_u64",
+        "s1_u128":"animation.rail.s1_u128",
+        "s1_d1":"animation.rail.s1_d1",
+        "s1_d2":"animation.rail.s1_d2",
+        "s1_d4":"animation.rail.s1_d4",
+        "s1_d8":"animation.rail.s1_d8",
+        "s1_d16":"animation.rail.s1_d16",
+        "s1_d32":"animation.rail.s1_d32",
+        "s1_d64":"animation.rail.s1_d64",
+        "s1_d128":"animation.rail.s1_d128"
+      },
+      "animation_controllers": [
+          {
+              "pole_common_1": "controller.animation.pole_common.pole_common_1"
+          }
+      ],
+      "render_controllers": [
+        "controller.render.phantom"
+      ]
+    }
+  }
+}
