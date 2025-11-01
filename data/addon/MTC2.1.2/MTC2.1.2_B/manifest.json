@@ -1,0 +1,41 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Minecraft Transportation Controller 2.1.2 Made by @mca_be_official",
+        "name": "§lMTC2.1.2",
+        "uuid": "ba4dec18-d268-49d0-8e2c-23b994bf6d7d",
+        "version": [2, 1, 202],
+        "min_engine_version": [1, 21, 0]
+    },
+    "modules": [
+        {
+            "description": "",
+            "type": "data",
+            "uuid": "87bc8dc9-6e10-44a3-8702-5bc21cce5426",
+            "version": [2, 1, 202]
+        },
+        {
+            "type": "script",
+            "language": "javascript",
+            "uuid": "a3d5cf8a-f9a7-4d77-9a78-4c8befbdbf82",
+            "entry": "scripts/main.js",
+            "version": [2, 1, 202]
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.11.0"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "1.1.0"
+        },
+        {
+            "type": "resource",
+            "uuid": "15383788-9526-4df9-9bac-8917a6327029",
+            "version": [2, 1, 202],
+            "description": ""
+        }
+    ]
+}

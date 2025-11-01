@@ -1,0 +1,33 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.mtc_death": {
+      "states": {
+        "default": {
+          "transitions": [
+            { "do": "1" }
+          ]
+        },
+        "do": {
+          "transitions": [
+            { "do2": "1" }
+          ]
+        },
+        "do2":{
+          "transitions": [
+            { "do3": "1" }
+          ],
+          "on_entry": [
+            "/function mtc/death"
+          ]
+        },
+        "do3":{
+          "on_entry": [
+            "/tp @s ~ 10000 ~",
+            "/tag @s add mtc_kill"
+          ]
+        }
+      }
+    }
+  }
+}

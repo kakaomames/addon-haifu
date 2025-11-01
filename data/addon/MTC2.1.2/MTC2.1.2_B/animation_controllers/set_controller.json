@@ -1,0 +1,26 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.mtc_set": {
+            "states": {
+                "default": {
+                    "transitions": [
+                        {
+                            "do1": "1"
+                        }
+                    ]
+                },
+                "do1": {
+                    "transitions": [
+                        {
+                            "default": "1"
+                        }
+                    ],
+                    "on_entry": [
+                        "/function mtc_inner/inner_set"
+                    ]
+                }
+            }
+        }
+    }
+}

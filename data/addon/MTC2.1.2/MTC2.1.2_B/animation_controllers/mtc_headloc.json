@@ -1,0 +1,78 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.mtc_headloc": {
+      "states": {
+        "default": {
+          "transitions": [
+            { "do": "1" }
+          ]
+        },
+        "do": {
+          "transitions": [
+            { "t0": "1" }
+          ]
+        },
+        "t0": {
+          "transitions": [
+            { "t1": "1" }
+          ]
+        },
+        "t1": {
+          "transitions": [
+            { "t2": "1" }
+          ]
+        },
+        "t2": {
+          "transitions": [
+            { "t3": "1" }
+          ]
+        },
+        "t3": {
+          "transitions": [
+            { "t4": "1" }
+          ]
+        },
+        "t4": {
+          "transitions": [
+            { "t5": "1" }
+          ]
+        },
+        "t5": {
+          "transitions": [
+            { "t6": "1" }
+          ]
+        },
+        "t6": {
+          "transitions": [
+            { "t7": "1" }
+          ]
+        },
+        "t7": {
+          "transitions": [
+            { "t8": "1" }
+          ]
+        },
+        "t8": {
+          "transitions": [
+            { "t9": "1" }
+          ]
+        },
+        "t9": {
+          "transitions": [
+            { "t10": "1" }
+          ]
+        },
+        "t10": {
+          "transitions": [
+            { "do": "1" }
+          ],
+          "on_entry":[
+            "/tp @s ~ -10000 ~",
+            "/tag @s add mtc_kill"
+          ]
+        }
+      }
+    }
+  }
+}

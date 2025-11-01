@@ -1,0 +1,37 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.selseat": {
+      "states": {
+        "default": {
+          "transitions": [
+            { "do": "1" }
+          ]
+        },
+        "do": {
+          "transitions": [
+            { "do2": "1" }
+          ],
+          "on_entry":[
+          ]
+        },
+        "do2":{
+          "transitions": [
+            { "do3": "1" }
+          ],
+          "on_entry": [
+            "/execute as @e[family=mtc_body,c=1] unless entity @s[tag=mtc_selseat] run tellraw @p {\"rawtext\":[{\"text\":\"§a編成の座席選択を有効化しました\"}]}",
+            "/execute as @e[family=mtc_body,c=1] if entity @s[tag=mtc_selseat] run tellraw @p {\"rawtext\":[{\"text\":\"§c既に有効化されています\"}]}",
+            "/execute as @e[family=mtc_body,c=1] unless entity @s[tag=mtc_selseat] run function mtc_selseat"
+          ]
+        },
+        "do3":{
+          "on_entry": [
+            "/tp @s ~ 10000 ~",
+            "/tag @s add mtc_kill"
+          ]
+        }
+      }
+    }
+  }
+}

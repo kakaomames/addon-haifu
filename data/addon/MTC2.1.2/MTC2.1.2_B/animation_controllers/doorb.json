@@ -1,0 +1,35 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.doorb": {
+      "states": {
+        "default": {
+          "transitions": [
+            { "do": "1" }
+          ]
+        },
+        "do": {
+          "transitions": [
+            { "do2": "1" }
+          ],
+          "on_entry":[
+          ]
+        },
+        "do2":{
+          "transitions": [
+            { "do3": "1" }
+          ],
+          "on_entry": [
+            "/function mtc/doorB"
+          ]
+        },
+        "do3":{
+          "on_entry": [
+            "/tp @s ~ 10000 ~",
+            "/tag @s add mtc_kill"
+          ]
+        }
+      }
+    }
+  }
+}
