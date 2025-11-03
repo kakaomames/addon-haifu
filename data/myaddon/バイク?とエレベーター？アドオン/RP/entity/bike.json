@@ -1,0 +1,36 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "my:bike",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/bike"
+      },
+      "geometry": {
+        "default": "geometry.bike"
+      },
+      "animations": {
+        "loop": "animation.bike.loop",
+        "up": "animation.bike.up",
+      },
+      "scripts": {
+      },
+      "animation_controllers": [
+        {
+          "setup": "controller.animation.bike.setup"
+        },
+        {
+          "movement": "controller.animation.bike.movement"
+        }
+      ],
+      "render_controllers": [ "controller.render.default" ], 
+      "spawn_egg": {
+        "base_color": "#474747",
+        "overlay_color": "#11802E"
+      }
+    }
+  }
+}
