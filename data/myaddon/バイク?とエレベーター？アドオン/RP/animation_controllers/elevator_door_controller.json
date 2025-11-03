@@ -1,0 +1,49 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.elevator.door": {
+      "initial_state": "closed",
+      "states": {
+        "closed": {
+          "transitions": [
+            {
+              "opening": "query.is_moving"
+            }
+          ]
+        },
+        "opening": {
+          "animations": [
+            "open" 
+          ],
+          "transitions": [
+            {
+              "opened": "!query.is_moving"
+            }
+          ]
+        },
+        "opened": {
+          "animations": [
+            {
+              "open": 0
+            }
+          ],
+          "transitions": [
+            {
+              "closing": "query.something_triggers_close" 
+            }
+          ]
+        },
+        "closing": {
+          "animations": [
+            "close"
+          ],
+          "transitions": [
+            {
+              "closed": "!query.is_moving" 
+            }
+          ]
+        }
+      }
+    }
+  }
+}
