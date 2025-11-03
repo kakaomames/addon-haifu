@@ -1,0 +1,51 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    
+    // 1. 基本設定とアイドル（待機）を制御するコントローラー
+    "controller.animation.bike.setup": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "animations": [
+            "up",
+            {
+              "idle": "query.modified_move_speed < 0.01"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "query.always_false"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.bike.movement": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "driving": "query.modified_move_speed > 0.01"
+            }
+          ],
+          "animations": [
+            "loop"
+          ]
+        },
+        "driving": {
+          "transitions": [
+            {
+              "default": "query.modified_move_speed < 0.01"
+            }
+          ],
+          "animations": [
+            "loop"
+          ],
+          "blend_transition": 0.2
+        }
+      }
+    }
+  }
+}
