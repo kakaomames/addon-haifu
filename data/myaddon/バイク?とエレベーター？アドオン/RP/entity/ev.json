@@ -7,10 +7,10 @@
         "default": "entity_alphatest"
       },
       "textures": {
-        "default": "textures/entity/elevator/elevator" 
+        "default": "textures/entity/ev" 
       },
       "geometry": {
-        "default": "geometry.elevator"
+        "default": "geometry.ev"
       },
       "animations": {
       
