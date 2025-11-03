@@ -1,0 +1,17 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "my:ev_setting",
+      "category": "items"
+    },
+    "components": {
+      "minecraft:icon": "ev_setting",
+      "minecraft:display_name": {
+        "value": "§b🛗 エレベーター座標設定ツール"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:hand_equipped": false
+    }
+  }
+}
