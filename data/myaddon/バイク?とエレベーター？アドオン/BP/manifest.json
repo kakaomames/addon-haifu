@@ -1,0 +1,40 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "§l§3[BP] エレベーター システム",
+    "description": "カカオマメさんのカスタムエレベーターとバイクのビヘイビアパック",
+    "uuid": "43e26458-7c85-48b4-82a9-7cc75710606f",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 20, 0]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "78b40880-b183-4796-9815-562725f0f370",
+      "version": [1, 0, 0]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "entry": "scripts/main.js",
+      "uuid": "14f29e1f-7b75-4c07-b352-7b8979c4a457",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.8.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "1.0.0-beta"
+    }
+  ],
+  "capabilities": [
+    "script_module"
+  ],
+  "metadata": {
+    "product_type": "addon"
+      }
+}
