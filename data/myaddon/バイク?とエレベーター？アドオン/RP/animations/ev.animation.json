@@ -1,0 +1,61 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.model.open": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 1,
+			"bones": {
+				"door": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.125": [-2, 0, 0],
+						"0.875": [-30.14, 0, 0],
+						"1.0": [-32, 0, 0]
+					}
+				},
+				"door2": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.125": [-2, 0, 0],
+						"1.0": [-16, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.model.close": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 1,
+			"bones": {
+				"door": {
+					"position": {
+						"0.0": [-32, 0, 0],
+						"0.75": [-3, 0, 0],
+						"1.0": [0, 0, 0]
+					}
+				},
+				"door2": {
+					"position": {
+						"0.0": [-16, 0, 0],
+						"0.75": [-2.73, 0, 0],
+						"0.9167": [-1, 0, 0],
+						"1.0": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.model.agaru": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 3,
+			"bones": {
+				"body": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"1.0": [0, 20.27, 0],
+						"2.0": [0, 82.67, 0],
+						"3.0": [0, 100, 0]
+					}
+				}
+			}
+		}
+	}
+}
