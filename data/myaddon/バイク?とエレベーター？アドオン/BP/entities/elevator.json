@@ -1,0 +1,104 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "myaddon:elevator",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    
+    "components": {
+      "minecraft:collision_box": {
+        "width": 1.0, 
+        "height": 0.1 
+      },
+      "minecraft:physics": {},
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": true
+      },
+      "minecraft:movement": {
+        "value": 0.0
+      },
+      "minecraft:health": {
+        "value": 1,
+        "max": 1
+      },
+      
+
+      "minecraft:interact": {
+        "interact_text": "エレベーターを操作",
+        "on_call": {
+          "event": "myaddon:on_interact"
+        },
+        "only_owner_use": false
+      },
+
+      "minecraft:variant": {
+        "value": 0
+      }
+    },
+
+    "component_groups": {
+      "myaddon:floor_2": {
+        "minecraft:variant": {
+          "value": 1
+        }
+      },
+      "myaddon:floor_1": {
+        "minecraft:variant": {
+          "value": 0
+        }
+      }
+    },
+    
+    "events": {
+      "minecraft:entity_spawned": {
+        "add": {
+          "component_groups": [ "myaddon:floor_1" ]
+        }
+      },
+      
+      "myaddon:on_interact": {
+        "filters": {
+          "test": "has_variant",
+          "value": 0
+        },
+        "sequence": [
+          {
+            "remove": { "component_groups": [ "myaddon:floor_1" ] }
+          },
+          {
+            "add": { "component_groups": [ "myaddon:floor_2" ] }
+          },
+          {
+            "run_command": {
+              "command": [ "tp @s ~ ~5 ~" ] 
+            }
+          }
+        ]
+      },
+     
+      "myaddon:on_interact": {
+        "filters": {
+          "test": "has_variant",
+          "value": 1
+        },
+        "sequence": [
+          {
+            "remove": { "component_groups": [ "myaddon:floor_2" ] }
+          }
+          {
+            "add": { "component_groups": [ "myaddon:floor_1" ] }
+          },
+          {
+            "run_command": {
+              "command": [ "tp @s ~ ~-5 ~" ] 
+            }
+          }
+        ]
+      }
+    }
+  }
+}
