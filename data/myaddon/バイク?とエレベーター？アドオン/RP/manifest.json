@@ -1,0 +1,23 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "§l§a[RP] エレベーター システム",
+    "description": "エレベーターとバイクのモデル、テクスチャ、アニメーションのリソースパック",
+    "uuid": "7c1d3c0e-4f7f-44e2-9b25-0d0e6d628892",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 20, 0]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "603f0b4d-16f5-41e9-9736-6c17e65f375c",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "43e26458-7c85-48b4-82a9-7cc75710606f",
+      "version": [1, 0, 0]
+    }
+  ]
+}
