@@ -10,8 +10,8 @@
     
     "components": {
       "minecraft:collision_box": {
-        "width": 1.0, 
-        "height": 0.1 
+        "width": 3.0,
+        "height": 3.0 
       },
       "minecraft:physics": {},
       "minecraft:pushable": {
@@ -22,82 +22,47 @@
         "value": 0.0
       },
       "minecraft:health": {
-        "value": 1,
-        "max": 1
+        "value": 50,
+        "max": 50
       },
       
-
-      "minecraft:interact": {
-        "interact_text": "エレベーターを操作",
-        "on_call": {
-          "event": "myaddon:on_interact"
-        },
-        "only_owner_use": false
-      },
-
-      "minecraft:variant": {
-        "value": 0
+  
+      "minecraft:rideable": {
+        "seat_count": 5, 
+        "family_types": [ "player" ],
+        "seats": [
+          {
+            "position": [ 0.0, 0.5, 0.0 ] 
+          }
+        ]
       }
+      
+      
     },
 
-    "component_groups": {
-      "myaddon:floor_2": {
-        "minecraft:variant": {
-          "value": 1
-        }
-      },
-      "myaddon:floor_1": {
-        "minecraft:variant": {
-          "value": 0
-        }
-      }
-    },
     
+
     "events": {
       "minecraft:entity_spawned": {
-        "add": {
-          "component_groups": [ "myaddon:floor_1" ]
+        
+      },
+      
+      
+      "myaddon:open_door": {
+        "animation": {
+          "animation.model.open": {
+            "mode": "play_once"
+          }
         }
       },
       
-      "myaddon:on_interact": {
-        "filters": {
-          "test": "has_variant",
-          "value": 0
-        },
-        "sequence": [
-          {
-            "remove": { "component_groups": [ "myaddon:floor_1" ] }
-          },
-          {
-            "add": { "component_groups": [ "myaddon:floor_2" ] }
-          },
-          {
-            "run_command": {
-              "command": [ "tp @s ~ ~5 ~" ] 
-            }
+      
+      "myaddon:close_door": {
+        "animation": {
+          "animation.model.close": {
+            "mode": "play_once" 
           }
-        ]
-      },
-     
-      "myaddon:on_interact": {
-        "filters": {
-          "test": "has_variant",
-          "value": 1
-        },
-        "sequence": [
-          {
-            "remove": { "component_groups": [ "myaddon:floor_2" ] }
-          }
-          {
-            "add": { "component_groups": [ "myaddon:floor_1" ] }
-          },
-          {
-            "run_command": {
-              "command": [ "tp @s ~ ~-5 ~" ] 
-            }
-          }
-        ]
+        }
       }
     }
   }
