@@ -2,7 +2,7 @@
   "format_version": "1.20.0",
   "minecraft:entity": {
     "description": {
-      "identifier": "myaddon:elevator",
+      "identifier": "my:elevator",
       "is_spawnable": true,
       "is_summonable": true,
       "is_experimental": false
